@@ -58,7 +58,7 @@ const FormOne = () => {
       // alert('Form Submited');
 
       await axios
-        .post('http://localhost:8000/', {
+        .post(`${process.env.REACT_APP_BACKEND_API}/`, {
           name,
           email,
           phone,
