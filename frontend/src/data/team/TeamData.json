@@ -1,0 +1,1516 @@
+[
+    {
+        "id": 1,
+        "category": "delhi",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member one",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 2,
+        "category": "delhi",
+        "thumb": "/images/team/team-2.jpeg",
+        "title": "Member two",
+        "designation": "Lead Research <br> Producer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 3,
+        "category": "delhi",
+        "thumb": "/images/team/team-3.jpeg",
+        "title": "Member three",
+        "designation": "Implementation <br> Specialist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 4,
+        "category": "delhi",
+        "thumb": "/images/team/team-4.jpeg",
+        "title": "Member four",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 5,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-1.jpeg",
+        "title": "Sumith",
+        "designation": "Project and  <br> Business Manager",
+        "description": "Sumith is a professional Project and Business Manager who possesses strong communication skills. As a Project Manager,Sumith is responsible for overseeing the planning, execution, and delivery of projects, while ensuring they meet thebusiness objectives and client requirements. He has experience in managing projects across various industries anddomains, including IT, healthcare, finance, and retail.As a Business Manager, Sumith has experience in developing and executing business strategies to drive growth andprofitability. He is skilled in conducting market research, identifying business opportunities, and creating effectivemarketing plans to promote products and services.Sumith's communication skills are an asset to his role as a Project and Business Manager. He is able to clearlyarticulate project goals, scope, and progress to stakeholders, and manage expectations effectively. He is also able tobuild and maintain strong relationships with clients, team members, and vendors, which is essential to ensuringsuccessful project outcomes.Overall, Sumith's combination of project management expertise and strong communication skills make him a valuable assetto any organization.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 6,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-2.jpeg",
+        "title": "Nalini",
+        "designation": "Project Manager",
+        "description": "Nalini is a professional Project Manager with exceptional communication skills. She is responsible for planning,executing, and closing projects, as well as managing teams, budgets, and timelines to ensure successful projectdelivery.As a Project Manager, Nalini understands the importance of clear communication and is able to effectively communicatewith stakeholders, team members, and clients to ensure that everyone is on the same page. She is skilled in usingvarious communication channels such as email, phone, video conferencing, and project management tools to keep everyoneinformed about project progress and to address any concerns that may arise.In addition to her communication skills, Nalini is an expert in project management methodologies such as Agile andWaterfall. She is able to tailor her approach based on the specific needs of each project and is able to adjust herplans and strategies as necessary to keep projects on track.Nalini is also skilled in risk management and is able to identify potential risks and develop mitigation strategies tominimize their impact on project delivery. She is dedicated to delivering projects on time, within budget, and to thehighest quality standards, while also ensuring that client satisfaction is a top priority.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 7,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-3.jpg",
+        "title": "Praveen Saketh",
+        "designation": "Senior Graphic Designer",
+        "description": "Praveen Saketh is a Senior Graphic Designer with exceptional communication skills. He has extensive experience increating visual designs that effectively communicate brand messages and ideas to target audiences. As a Senior GraphicDesigner, Praveen is responsible for developing and executing design concepts for a variety of digital and print media.Praveen is proficient in using industry-standard design tools such as Adobe Creative Suite, Sketch, and Figma. He iswell-versed in creating graphics, illustrations, and layouts that align with branding guidelines and marketingobjectives. Praveen has a keen eye for detail, and he ensures that all designs he creates are of the highest quality andare consistent with the company's brand identity.Praveen's communication skills are one of his greatest strengths. He is an effective communicator who can articulatedesign concepts and ideas to both technical and non-technical team members. He is skilled in collaborating withcross-functional teams to ensure that design projects are completed on time and within budget.Overall, Praveen is an accomplished Senior Graphic Designer who brings creativity, technical expertise, and exceptionalcommunication skills to every project he works on.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 8,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-4.png",
+        "title": "Sreenivas Chaudary",
+        "designation": "Digital Marketing Lead",
+        "description": "Sreenivas is a Digital Marketing Lead who possesses excellent communication skills. As a digital marketing professional,Sreenivas is responsible for developing and implementing marketing strategies that help businesses grow their onlinepresence and reach their target audience.Sreenivas has extensive experience in creating and executing successful digital marketing campaigns across variouschannels such as social media, email marketing, search engine optimization (SEO), pay-per-click (PPC) advertising, andcontent marketing. He is skilled in using various marketing tools and analytics platforms to measure campaignperformance and make data-driven decisions.One of Sreenivas's key strengths is his ability to communicate effectively with both internal and external stakeholders.He is a great listener, and is able to translate business objectives into effective marketing campaigns that resonatewith the target audience. He is also an excellent team player who is able to collaborate with cross-functional teams toachieve common goals.Sreenivas's strong communication skills enable him to effectively convey complex marketing concepts to non-technicalstakeholders, which is an essential skill in the fast-paced world of digital marketing. Overall, Sreenivas's expertisein digital marketing and excellent communication skills make him a valuable asset to any organization.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 9,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-5.jpg",
+        "title": "Mujalalief",
+        "designation": "PPC Head",
+        "description": "Mujalalief is a PPC (Pay-Per-Click) Head who has excellent communication skills. As a PPC Head, Mujalalief isresponsible for managing and optimizing online advertising campaigns, specifically those that are run through searchengines, social media platforms, and other online channels.In addition to being highly skilled in managing PPC campaigns, Mujalalief is an effective communicator who is able toconvey complex ideas and strategies to clients, stakeholders, and team members. He has the ability to explain technicalconcepts in a clear and concise manner, making it easier for others to understand the performance of their campaigns andthe recommended optimizations to achieve better results.Mujalalief's communication skills also extend to collaborating with cross-functional teams, including designers,copywriters, and developers, to ensure that the campaigns he oversees are aligned with the overall marketing strategyand brand guidelines. He is able to provide clear direction and feedback to team members, helping to ensure thateveryone is working towards the same goals and objectives.Overall, Mujalalief's combination of technical expertise in PPC management and strong communication skills make him avaluable asset to any organization looking to grow their online advertising efforts.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 10,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-6.jpeg",
+        "title": "Sharan Bhatt",
+        "designation": "Digital Marketing  <br> Manager",
+        "description": "Sharan Bhatt is a Digital Marketing Manager who has excellent communication skills. As a Digital Marketing Manager,Sharan is responsible for developing and implementing digital marketing campaigns to promote products and servicesonline. He has a deep understanding of various digital marketing channels such as social media, search engine marketing,email marketing, and content marketing.With his strong communication skills, Sharan is able to effectively convey marketing strategies to team members,stakeholders, and clients. He is able to collaborate with cross-functional teams to create content that aligns with thebrand's goals and objectives. Additionally, Sharan has experience in creating and managing marketing budgets, trackingperformance metrics, and analyzing data to optimize marketing campaigns.Sharan's ability to communicate effectively with team members and stakeholders allows him to build strong relationships,establish trust, and achieve results. He is able to articulate complex ideas in a clear and concise manner, and is ableto adapt his communication style to suit different audiences. With his combination of digital marketing expertise andcommunication skills, Sharan is an asset to any marketing team.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 11,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-7.jpeg",
+        "title": "Roopali",
+        "designation": "Social Media Executive",
+        "description": "Roopali is a Social Media Executive who specializes in managing and executing social media strategies for businesses andorganizations. She has excellent communication skills that allow her to effectively engage with audiences across varioussocial media platforms, including Facebook, Twitter, Instagram, LinkedIn, and more.As a Social Media Executive, Roopali is responsible for creating and curating content that is both engaging andinformative. She is skilled in using social media analytics tools to track and analyze user engagement, and to developinsights that inform future social media strategies.Roopali is also experienced in using social media advertising tools to create and execute targeted ad campaigns thatdrive traffic and conversions. She has a deep understanding of various social media platforms and trends, and is able tostay up-to-date on the latest developments and best practices in the industry.Overall, Roopali is a highly effective communicator who is able to leverage social media platforms to help businessesand organizations achieve their goals and connect with their audiences.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 12,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-8.jpeg",
+        "title": "pragya chawla",
+        "designation": "PR Head        ",
+        "description": "Pragya Chawla is a Public Relations (PR) Head who has exceptional communication skills. As a PR professional, Pragya isresponsible for developing and implementing effective communication strategies to build and maintain a positive imagefor the organization she represents.With her excellent communication skills, Pragya is able to effectively convey the organization's messages to variousstakeholders, including the media, investors, and customers. She is also skilled in managing crisis communication,handling difficult situations with tact and diplomacy.Pragya has a deep understanding of media relations and is able to build strong relationships with journalists and mediaoutlets to secure positive coverage for her organization. She is also adept at creating engaging content for pressreleases, social media, and other communication channels.In addition to her communication skills, Pragya is a strategic thinker who is able to develop and execute effective PRcampaigns that align with the organization's goals and objectives. She is a team player who is able to collaborate withother departments to ensure that the organization's messaging is consistent and effective across all channels.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 13,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-9.jpeg",
+        "title": "Manohar",
+        "designation": "Digital Marketing Executive",
+        "description": "Manohar is a Digital Marketing Executive who possesses excellent communication skills. As a digital marketingprofessional, Manohar is responsible for developing and implementing marketing strategies that help promote brands,products, and services in the digital space. He has expertise in various digital marketing techniques, including searchengine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, email marketing, content marketing,and more.One of Manohar's key strengths is his ability to communicate effectively with team members, stakeholders, and clients.He is able to explain complex digital marketing concepts in a clear and concise manner, and is skilled in creatingcompelling marketing messages that resonate with target audiences. He is also an excellent listener, and is able tounderstand the needs and goals of his clients and stakeholders.In addition to his communication skills, Manohar is a data-driven marketer who is able to analyze digital marketingmetrics and use insights to optimize marketing campaigns. He is also a creative thinker who is able to come up withinnovative ideas that help drive business growth and generate leads.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+   
+    {
+        "id": 15,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-11.jpeg",
+        "title": "Karnan Kumar",
+        "designation": "Brand Manager",
+        "description": "Karnan Kumar is a Brand Manager with excellent communication skills. As a Brand Manager, Karnan is responsible fordeveloping and executing marketing strategies to promote and enhance the reputation of his company's brand.Karnan has a deep understanding of his target audience and uses his communication skills to effectively convey thebrand's message to them. He is skilled in creating and implementing marketing campaigns across various channels,including social media, email, and print media.In addition to his communication skills, Karnan is a strategic thinker who is able to analyze market trends and identifyopportunities to increase brand awareness and engagement. He works closely with his team to develop creative solutionsthat align with the company's overall business objectives.Karnan is also a team player who is able to collaborate effectively with cross-functional teams, including productdevelopment, sales, and customer service. He understands the importance of building strong relationships with internaland external stakeholders to ensure the success of his brand.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 16,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-12.jpg",
+        "title": "Thanujesh",
+        "designation": "Back End Developer",
+        "description": "Thanujesh is a Back End Developer with excellent communication skills. He specializes in designing and buildingserver-side applications that are scalable, secure, and efficient. Thanujesh has a deep understanding of back endtechnologies like Node.js, PHP, Ruby on Rails, and Java, and is proficient in using various database management systemslike MySQL, MongoDB, and PostgreSQL.In addition to his technical skills, Thanujesh is an effective communicator who can explain complex technical conceptsin a clear and concise manner. He has experience working with cross-functional teams, including front end developers,project managers, and stakeholders, and can collaborate with them to ensure that project goals are met.Thanujesh is also skilled in writing clear and concise documentation, which is essential for ensuring that code can beeasily maintained and updated. He is committed to delivering high-quality code that meets project requirements, and isdedicated to providing exceptional customer service to his clients. His combination of technical expertise and strongcommunication skills makes him an asset to any development team",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 17,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-13.jpg",
+        "title": "Dinesh Lal",
+        "designation": "Junior WordPress Developer",
+        "description": "Dinesh Lal is a Junior WordPress Developer who possesses excellent communication skills. He is responsible for creatingand maintaining WordPress websites and web applications for clients. As a Junior WordPress Developer, Dinesh isproficient in using HTML, CSS, and JavaScript to design and develop custom WordPress themes and plugins.Dinesh's communication skills make him an effective team player who is able to collaborate with designers, developers,and project managers to ensure that client requirements are met. He is able to communicate technical information clearlyand concisely, making him a valuable asset to any team.In addition to his technical skills and communication abilities, Dinesh is a quick learner who is always looking forways to improve his skills and expand his knowledge. He is able to work independently and as part of a team, and iscommitted to delivering high-quality work that meets project deadlines and exceeds client expectations.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 18,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-14.jpeg",
+        "title": "Javed",
+        "designation": "Full Stack Developer",
+        "description": "Javed is a  Full Stack Developer who possesses excellent communication skills. He is proficient in both front-endand back-end development, and has a strong understanding of popular web development frameworks like React, Angular,Node.js, and Express.js.As a Full Stack Developer, Javed is responsible for creating and implementing user-friendly web applications that areboth responsive and scalable. He is skilled in using HTML, CSS, JavaScript, and various database management systems tobuild dynamic and interactive applications.Javed's strong communication skills make him a valuable asset to any team. He is able to effectively communicate withteam members, stakeholders, and clients, and is able to explain technical concepts in a clear and concise manner. Thisability to communicate effectively ensures that everyone involved in a project is on the same page, and that the projectis completed successfully and on time.In addition to his technical and communication skills, Javed is a quick learner who is committed to staying up-to-datewith the latest web development technologies and best practices. He is always eager to take on new challenges and isdedicated to delivering high-quality code that meets project requirements and exceeds expectations.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 19,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-15.jpg",
+        "title": "Trupti",
+        "designation": "HR Manager",
+        "description": "Trupti is a  HR Manager with excellent communication skills. She is responsible for managing and overseeingvarious human resources functions within the organization, such as recruiting, onboarding, employee relations,performance management, and training and development.Trupti is adept at building relationships with employees and management, and has a strong ability to communicate withall levels of the organization. She is a good listener and is able to understand the needs and concerns of employees andprovide effective solutions.As a Junior HR Manager, Trupti is responsible for ensuring that the organization is compliant with relevant employmentlaws and regulations, and that policies and procedures are implemented and followed consistently. She is alsoresponsible for managing and maintaining employee records, ensuring that they are accurate and up-to-date.Trupti is a proactive problem-solver, and is able to work collaboratively with other departments and managers to ensurethat the organization's HR needs are met. Her strong communication skills enable her to effectively communicate HRpolicies and procedures to employees, and she is able to provide guidance and support to employees who need assistancewith HR-related issues.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },{
+        "id": 20,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 21,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty one",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 22,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty two",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 23,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty three",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 24,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty four",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 25,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty five",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 26,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty six",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 27,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty seven",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 28,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty eight",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 29,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member twenty nine",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 30,
+        "category": "delhi",
+        "thumb": "/images/team/team-8.jpeg",
+        "title": "Member thirty",
+        "designation": "Forward Interactions <br> Developer",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 31,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Thity One",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 32,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Thirty Two",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 33,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Thirty Three",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 34,
+        "category": "Delhi",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Thiry Four",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 35,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Thirty Five",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 36,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Thirty Six",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 37,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Thirty Seven",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 38,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Thirty Eight",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 39,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Thirty Nine",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 40,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 41,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty one",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 42,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty Two",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 43,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty Three",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 44,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty Four",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 45,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty Five",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 46,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty Six",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 47,
+        "category": "hyderabad",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty Seven",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 48,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty Eight",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 49,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Forty Nine",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 50,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 51,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty One",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 52,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty Two",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 53,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty Three",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 54,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty Four",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 55,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty Five",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 56,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty Six",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 57,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty Seven",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 58,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty Eigyt",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 59,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Fifty Nine",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 60,
+        "category": "Mumbai",
+        "thumb": "/images/team/team-1.jpeg",
+        "title": "Member Sixty",
+        "designation": "Communications <br> Strategist",
+        "description": "description",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 61,
+        "category": "bangalore",
+        "thumb": "/images/team/Kushal.jpg",
+        "title": "Kushal Kumar Reddy B",
+        "designation": "Chairman & Managing Director",
+        "description": "Kushal Kumar Reddy is the accomplished Chairman and Managing Director of Hirola InfoTech Solutions, a prominent and innovative technology company. With his visionary leadership and strategic direction, he has played a pivotal role in the company's growth and success.Under Kushal Kumar Reddy's guidance, Hirola InfoTech Solutions has emerged as a key player in the technology industry, offering cutting-edge solutions and services to clients across various sectors. His expertise and deep understanding of market dynamics have enabled the company to stay ahead of the curve and deliver exceptional value to its customers.As the Chairman, Kushal Kumar Reddy provides overarching leadership and sets the strategic goals and objectives for Hirola InfoTech Solutions. His ability to envision new opportunities and navigate complex business landscapes has been instrumental in the company's expansion and market penetration.In his role as the Managing Director, Kushal Kumar Reddy oversees the day-to-day operations of the company, ensuring smooth execution of projects and initiatives. He fosters a culture of innovation, collaboration, and excellence within the organization, inspiring employees to strive for excellence and achieve exceptional results.Kushal Kumar Reddy's leadership style is marked by his strong commitment to customer satisfaction and delivering high-quality solutions.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 62,
+        "category": "bangalore",
+        "thumb": "/images/team/thejaswar.jpg",
+        "title": "Thejeshwar Reddy B",
+        "designation": "CFO & Managing Director",
+        "description": "Thejeshwar Reddy B is a professional in the field of information technology and currently holds the position of Managing Director at Hirola InfoTech Solutions. As Managing Director, he is responsible for overseeing the day-to-day operations of the company and ensuring that it is achieving its goals and objectives.With his background and expertise in the IT industry, Thejeshwar Reddy B is well-equipped to lead Hirola InfoTech Solutions. He is knowledgeable about the latest technologies and trends in the industry, and he has a strong understanding of how to use technology to meet business needs.In his role as Managing Director, Thejeshwar Reddy B works closely with the company's staff and clients to ensure that all projects are completed on time and within budget. He is dedicated to providing high-quality services and solutions to the company's clients and is always looking for ways to improve the company's processes and procedures.Overall, Thejeshwar Reddy B is a skilled and experienced professional who is committed to the success of Hirola InfoTech Solutions. His leadership and expertise have been instrumental in helping the company grow and thrive in a competitive industry.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 88,
+        "category": "bangalore",
+        "thumb": "/images/team/Keerthana.jpg",
+        "title": "Keerthana",
+        "designation": "COO",
+        "description": "Keerthana is a highly accomplished professional who currently holds the position of Chief Operations Officer (COO) at Hirola InfoTech Solutions. As COO, she plays a critical role in overseeing the day-to-day operations of the company and ensuring its smooth functioning.With her extensive experience and expertise in operations management, Keerthana brings a strategic and results-oriented approach to her role. She is responsible for optimizing business processes, improving operational efficiency, and implementing best practices to drive overall organizational effectiveness. Keerthana works closely with cross-functional teams within the company, including sales, marketing, finance, and human resources, to align operational strategies with business objectives. She focuses on enhancing operational performance, streamlining workflows, and implementing quality control measures to deliver exceptional products and services to clients.Her strong leadership skills enable her to effectively manage and motivate teams, ensuring collaboration, open communication, and a positive work environment. Keerthana's ability to make informed decisions, based on data analysis and market insights, contributes to the company's success in meeting its targets and delivering value to clients.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 89,
+        "category": "bangalore",
+        "thumb": "/images/team/nandini.jpg",
+        "title": "Nandhini",
+        "designation": "CSO",
+        "description": "Nandhini holds the position of Chief Strategy Officer (CSO) at Hirola InfoTech Solutions, where she plays a pivotal role in shaping the company's strategic direction and ensuring its long-term success. As CSO, Nandhini is responsible for developing and executing strategic initiatives that drive growth, innovation, and competitive advantage.With her extensive experience in the technology and marketing industry, Nandhini brings a wealth of knowledge and a forward-thinking mindset to her role. She closely monitors market trends, industry shifts, and emerging technologies to identify new opportunities and formulate strategies that align with the company's goals.Nandhini works closely with the executive team and other key stakeholders to define and refine the company's vision, mission, and overall business strategy. She collaborates with various departments within the organization, including research and development, marketing, and operations, to ensure that strategic initiatives are effectively implemented and executed.In addition to setting the strategic direction, Nandhini is responsible for evaluating potential partnerships, alliances, and business opportunities that can enhance Hirola InfoTech Solutions' market position and expand its reach. She fosters relationships with key clients, industry experts, and thought leaders to stay at the forefront of industry advancements and ensure that the company remains competitive in the rapidly evolving technology landscape.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 63,
+        "category": "bangalore",
+        "thumb": "/images/team/ravi.jpg",
+        "title": "Ravi madduru",
+        "designation": "GM-Marketing & Projects",
+        "description": "Ravi Maddur is a professional in the field of digital marketing and currently serves as the Digital Marketing Manager at Hirola InfoTech Solutions. In his role, he is responsible for planning, implementing, and managing the company's digital marketing campaigns across various channels, including social media, email, and search engine marketing.Ravi Maddur has extensive knowledge and experience in the digital marketing industry, with a proven track record of delivering successful campaigns and driving results for his clients. He is highly skilled in using analytics tools to measure and optimize campaign performance, as well as in identifying new opportunities for growth and expansion. As Digital Marketing Manager, Ravi Maddur works closely with the company's marketing and sales teams to develop and execute integrated marketing strategies that support the company's business goals. He is always exploring new digital marketing techniques and technologies, and is committed to staying up-to-date with the latest industry trends.Overall, Ravi Maddur is a skilled and experienced digital marketing professional who is dedicated to driving results for Hirola InfoTech Solutions. His expertise in digital marketing has been instrumental in helping the company reach new audiences and achieve its growth objectives.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 64,
+        "category": "bangalore",
+        "thumb": "/images/team/srikanth.jpg",
+        "title": "Srikanth Mallikarjuna",
+        "designation": "Sr.Front-End Developer",
+        "description": "Srikanth is a professional Frontend Developer with expertise in both React and Angular frameworks. He has excellentcommunication skills, which enable him to effectively collaborate with clients and team members to understand projectrequirements and deliver high-quality solutions.As a Frontend Developer, Srikanth is responsible for building user interfaces that are both intuitive and visuallyappealing. He is proficient in HTML, CSS, and JavaScript, and has deep knowledge of both React and Angular frameworks.Srikanth has experience in creating complex UI components, designing responsive layouts, and implementing datavisualization using various libraries and tools.In addition to his technical skills, Srikanth has excellent communication skills, which allow him to effectivelycollaborate with other developers, designers, and stakeholders. He is able to clearly communicate his ideas andsolutions, and is always open to feedback and suggestions from others.Overall, Srikanth is a highly skilled Frontend Developer with a strong focus on delivering high-quality solutions andproviding excellent customer service. His proficiency in both React and Angular frameworks, coupled with hiscommunication skills, make him a valuable asset to any project team.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 65,
+        "category": "bangalore",
+        "thumb": "/images/team/sanjay.jpg",
+        "title": "Sanjay G",
+        "designation": "Front-End Developer",
+        "description": "Sanjay is a professional FrontEnd and WordPress Developer with excellent communication skills. As a FrontEnd Developer,he specializes in creating visually appealing and user-friendly websites using HTML, CSS, and JavaScript. He has a deepunderstanding of user experience (UX) and user interface (UI) design principles, which helps him to create websites thatare both aesthetically pleasing and functional.In addition to his FrontEnd skills, Sanjay is also experienced in WordPress development. He has expertise in customizingWordPress themes and plugins to meet specific client needs. He is well-versed in PHP, MySQL, and other technologiescommonly used in WordPress development.Sanjay's excellent communication skills enable him to effectively communicate with clients and team members. He is ableto understand client requirements and provide solutions that meet their needs. He is also able to work collaborativelywith team members to ensure that projects are completed on time and within budget.Overall, Sanjay is a talented FrontEnd and WordPress Developer who is able to deliver high-quality work whilemaintaining excellent communication with clients and team members.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 66,
+        "category": "bangalore",
+        "thumb": "/images/team/dinesh.jpg",
+        "title": "Dinesh Srinivas",
+        "designation": "Back End Developer",
+        "description": "As a Backend Developer, Dinesh is responsible for designing, developing, and maintaining server-side applications anddatabases that support the front-end of web applications.In addition to his technical skills, Dinesh has exceptional communication abilities that allow him to effectivelycollaborate with team members and stakeholders. He is able to clearly explain technical concepts to non-technicalstakeholders, listen actively to their feedback and requirements, and provide updates on project progress.Dinesh's communication skills also enable him to work effectively within teams, ensuring that everyone is on the samepage and working towards a common goal. He is a great listener and is always open to feedback and suggestions, makinghim a valuable team player.Overall, Dinesh's combination of technical expertise and communication skills make him a valuable asset to any teamworking on complex web applications or database systems.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 67,
+        "category": "bangalore",
+        "thumb": "/images/team/perumal.jpg",
+        "title": "Perumal Bodhicherla",
+        "designation": "Digital Marketing Executive",
+        "description": "Perumal is a professional Digital Marketing Executive with excellent communication skills. He is responsible fordesigning and implementing effective digital marketing strategies to help businesses achieve their marketing goals. As adigital marketing expert, Perumal is knowledgeable about various digital marketing channels, including search engineoptimization (SEO), social media marketing, email marketing, and pay-per-click advertising.With his excellent communication skills, Perumal is able to effectively communicate with clients and team members tounderstand their needs and develop customized digital marketing plans to meet their objectives. He is also skilled increating compelling content for websites, social media platforms, and email marketing campaigns that resonates withtarget audiences and drives engagement.Perumal stays up-to-date with the latest digital marketing trends and best practices, and is constantly testing andrefining strategies to ensure maximum ROI for his clients. He is a team player who is able to work collaboratively withothers to achieve common goals, and has a strong work ethic that ensures timely and quality delivery of projects.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 68,
+        "category": "bangalore",
+        "thumb": "/images/team/Sidharth.jpg",
+        "title": "Sidharth Satya",
+        "designation": " Graphic Designer",
+        "description": "Sidharth is a professional Creative Graphic Designer with exceptional design skills and excellent communicationabilities. He has extensive experience in creating stunning visual designs that effectively communicate the message of abrand or business.As a graphic designer, Sidharth is proficient in using design software such as Adobe Photoshop, Illustrator, andInDesign to create designs for a wide range of projects including logos, brochures, flyers, social media graphics, andmore. He has an eye for detail and a deep understanding of color theory, typography, and layout design principles.One of Sidharth's key strengths is his ability to effectively communicate with clients and team members. He has stronginterpersonal skills and is able to understand and interpret the needs of his clients, while providing them withinnovative design solutions that meet their requirements.Sidharth is committed to delivering high-quality designs that exceed his client's expectations. He is a team player whois always willing to collaborate and work towards the best possible outcome. With his creativity and communicationskills, Sidharth is a valuable asset to any project.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 69,
+        "category": "bangalore",
+        "thumb": "/images/team/harshitha.jpg",
+        "title": "Harshitha Shankar",
+        "designation": "HR Administration ",
+        "description": "Harshitha is a professional HR Administrator who possesses excellent communication skills. As an HR Administrator, sheis responsible for managing various human resources functions, such as recruiting, onboarding, performance management,training and development, and employee relations. She is adept at handling the day-to-day administrative tasks of an HRdepartment while also focusing on strategic planning and improving HR processes.With her strong communication skills, Harshitha is able to effectively communicate with both employees and management toensure that HR policies and procedures are followed. She is able to provide guidance to employees on HR-related mattersand is skilled in conflict resolution, mediation, and negotiation. Her ability to communicate clearly and effectivelyalso helps her to build strong relationships with candidates during the recruitment process.In addition to her communication skills, Harshitha has a strong attention to detail, is organized, and is able tomultitask effectively. She is committed to providing exceptional customer service to all employees, and is alwayslooking for ways to improve HR processes to better meet the needs of the organization.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 70,
+        "category": "bangalore",
+        "thumb": "/images/team/Aarthi.jpg",
+        "title": "Arathi Reghu Kumar",
+        "designation": "Graphic Designer",
+        "description": "Arathi is a professional Graphic Designer who is highly skilled in creating visual designs that communicate a specificmessage to a targeted audience. With her creative flair and expertise in design software such as Adobe Photoshop,Illustrator, and InDesign, Arathi has the ability to produce engaging graphics for a wide range of media, includingwebsites, social media, print, and marketing collateral.What sets Arathi apart from other Graphic Designers is her excellent communication skills. She is able to understand theneeds and goals of her clients and translate them into effective designs that meet their expectations. Arathi is alsoable to collaborate with team members, such as writers, marketers, and developers, to ensure that the design aligns withthe overall project vision.Arathi's designs are not only visually appealing but also strategically crafted to engage and captivate the targetaudience. She is able to choose the right color schemes, typography, and imagery to create a cohesive and impactfuldesign that effectively communicates the intended message.Overall, Arathi's combination of design skills and communication abilities make her a valuable asset to any project thatrequires creative and effective visual communication.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+   
+    {
+        "id": 76,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-16.jpeg",
+        "title": "Lisa George",
+        "designation": "Senior Business Developer",
+        "description": "Lisa George is a Senior Business Developer who possesses excellent communication skills. As a Senior Business Developer,Lisa is responsible for identifying and pursuing new business opportunities and partnerships, negotiating contracts, andbuilding relationships with clients and stakeholders.With her strong communication skills, Lisa is able to effectively articulate the value proposition of her company'sproducts and services to potential clients and partners. She is able to listen actively and empathetically to clientneeds and concerns, and respond with appropriate solutions that meet their requirements.Lisa's communication skills also extend to working with internal teams, where she is able to effectively communicateproject requirements, timelines, and deliverables. She is able to collaborate with team members to identify areas forimprovement, streamline processes, and optimize workflows.Overall, Lisa's strong communication skills make her a valuable asset to any organization, as she is able to effectivelycommunicate with clients, partners, and internal teams to achieve business objectives and drive growth.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 77,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-17.png",
+        "title": "Shafiq Sayed",
+        "designation": "Senior Application Developer",
+        "description": "Shafiq Sayed is a Senior Application Developer who possesses excellent communication skills. As a developer, Shafiq isresponsible for designing, building, and maintaining software applications. He has extensive experience working withvarious programming languages, such as Java, Python, and C++, and is proficient in using various tools and frameworksfor software development.Shafiq's exceptional communication skills make him an asset to any team. He is able to clearly communicate technicalconcepts to both technical and non-technical stakeholders, ensuring that everyone is on the same page and that projectsstay on track. He is also able to listen actively and respond to feedback in a constructive and collaborative manner.Shafiq's experience and technical expertise, combined with his strong communication skills, make him an effective leaderand mentor. He is able to guide and support team members, foster a collaborative work environment, and ensure thateveryone is working towards the same goals. Overall, Shafiq is a valuable asset to any software development team lookingfor a skilled and communicative Senior Application Developer.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 77,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-18.jpeg",
+        "title": "Anitha",
+        "designation": "Digital Marketing Executive",
+        "description": "Anitha is a Digital Marketing Executive who specializes in using various digital channels and platforms to promotebrands, products, or services. As a Digital Marketing Executive, Anitha is responsible for developing and implementingdigital marketing campaigns that help businesses reach their target audience and achieve their marketing goals.One of Anitha's key strengths is her excellent communication skills. She is able to communicate effectively with bothinternal teams and external clients, and is skilled in using various communication channels to reach and engage withcustomers.Anitha is proficient in using a variety of digital marketing tools and techniques, including SEO, PPC advertising, emailmarketing, social media marketing, content marketing, and analytics. She is able to analyze data and use insights tooptimize campaigns and drive better results.Anitha is a creative thinker who is able to come up with innovative ideas and strategies to help businesses stand out ina crowded digital marketplace. She is a team player who is able to collaborate effectively with other stakeholders toensure that digital marketing campaigns are aligned with broader business objectives.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+   
+    {
+        "id": 79,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-19.jpeg",
+        "title": "Johnson",
+        "designation": "Digital Marketing Trainee",
+        "description": "Johnson is a Digital Marketing Trainee with excellent communication skills. As a trainee, Johnson is responsible forlearning the latest digital marketing strategies and techniques, and applying them to promote products or servicesonline.In his role, Johnson communicates with customers through various channels, such as email, social media, and online chat.He is able to effectively convey information about the product or service, answer questions, and resolve any issues thatcustomers may have.With his strong communication skills, Johnson is also able to work collaboratively with his colleagues to develop andexecute successful digital marketing campaigns. He is able to share his ideas and insights, and provide valuablefeedback to help improve the effectiveness of marketing efforts.Overall, Johnson's combination of digital marketing skills and communication abilities make him a valuable asset to anyteam or organization that is looking to succeed in the digital world.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 80,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-20.jpeg",
+        "title": "Arpitha TK",
+        "designation": "Front End Developer",
+        "description": "Arpitha is a Front End Developer who not only possesses technical expertise but also has excellent communication skills.As a Front End Developer, Arpitha is responsible for designing and implementing user interfaces for web applications.Her technical skills include proficiency in HTML, CSS, JavaScript, and other related front-end technologies.However, what sets Arpitha apart is her ability to communicate effectively with clients, project managers, and teammembers. She is able to explain technical concepts in a way that is easy to understand for non-technical stakeholders,and can also provide valuable feedback and suggestions to help improve the user experience of the application.Arpitha's strong communication skills enable her to work collaboratively with cross-functional teams and to buildpositive working relationships with clients. She is able to understand and empathize with their needs, and caneffectively convey technical requirements and project status updates.Overall, Arpitha's combination of technical expertise and communication skills make her a valuable asset to any projectteam, as she is able to deliver high-quality work while maintaining strong relationships with all stakeholders involved.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 81,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-21.jpeg",
+        "title": "Murali Bawa",
+        "designation": "Full Stack Developer",
+        "description": "Murali Bawa is a Full Stack Developer who has expertise in both front-end and back-end web development. He iswell-versed in popular front-end technologies such as HTML, CSS, and JavaScript, and has experience with severalJavaScript frameworks such as React and Angular. In addition, Murali has experience with back-end technologies likeNode.js and databases like MySQL and MongoDB.One of Murali's strengths is his excellent communication skills. As a Full Stack Developer, Murali has to work withvarious teams, including designers, project managers, and other developers, and communicate effectively with them toensure that the project requirements are met. He is skilled in explaining complex technical concepts in a clear andconcise manner, which makes him a valuable team member.Murali is also a problem solver and has a strong ability to work independently or as part of a team. He is alwayswilling to take on new challenges and learn new technologies to stay up-to-date with the latest trends in webdevelopment. Overall, Murali is a highly skilled Full Stack Developer with excellent communication skills, making him avaluable asset to any development team.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 82,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-22.jpeg",
+        "title": "Veerendra",
+        "designation": "Senior Business Developer",
+        "description": "Veerendra is a Senior Business Developer with exceptional communication skills. As a Senior Business Developer,Veerendra is responsible for driving business growth by identifying new sales opportunities, developing strategies totarget potential customers, and building long-term relationships with key clients.Veerendra's excellent communication skills enable him to effectively present and promote his company's products andservices to prospective clients. He is able to understand and articulate the unique value proposition of his company'sofferings, and is skilled in tailoring his message to the specific needs and interests of each client.In addition to his communication skills, Veerendra has a deep understanding of the industry and market trends. He isadept at conducting market research, analyzing data, and identifying opportunities for growth. He is also able todevelop and implement effective sales strategies that align with his company's goals and objectives.Veerendra's strong leadership skills enable him to effectively manage and motivate his sales team to achieve theirtargets. He is able to provide guidance, support, and mentorship to his team members, while also holding themaccountable for their performance.Overall, Veerendra is an accomplished Senior Business Developer who combines exceptional communication skills with adeep understanding of the industry and market trends to drive business growth and achieve success.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 83,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-23.jpeg",
+        "title": "subhash",
+        "designation": "Junior Android Developer",
+        "description": "Subhash is a Junior Android Developer who is proficient in developing mobile applications for the Android platform. Hehas a strong foundation in Java and Kotlin programming languages and is familiar with various Android development toolssuch as Android Studio, Gradle, and Firebase.In addition to his technical skills, Subhash has excellent communication skills, which allow him to effectivelycollaborate with team members and stakeholders. He is able to clearly communicate complex technical concepts tonon-technical stakeholders, and he actively listens to feedback and suggestions to improve his work.Subhash is a quick learner and is always eager to expand his knowledge and skill set. He has a passion for buildinguser-friendly and intuitive mobile applications that solve real-world problems. With his technical proficiency andstrong communication skills, Subhash is well-suited for collaborating with cross-functional teams to deliverhigh-quality Android applications.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 84,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-24.png",
+        "title": "Ramya Gowda",
+        "designation": "SEO & ORM Executive",
+        "description": "Ramya Gowda is an experienced SEO & ORM Executive who specializes in optimizing websites and online content to improvetheir search engine ranking and visibility. She is highly skilled in performing keyword research, optimizing content forsearch engines, and implementing on-page and off-page SEO strategies to increase website traffic.As an ORM (Online Reputation Management) Executive, Ramya is responsible for monitoring and managing a company's onlinereputation. She uses various tools and techniques to track online reviews, comments, and social media mentions to ensurethat a company's online image is positive and well-maintained.One of Ramya's key strengths is her excellent communication skills. She is able to effectively communicate with clients,team members, and other stakeholders to understand their needs and goals, and to provide regular updates on projectprogress. Her strong interpersonal skills also enable her to build and maintain positive relationships with clients andcolleagues, contributing to a positive work environment.Overall, Ramya is a talented and dedicated SEO & ORM Executive with a proven track record of achieving success inoptimizing websites and managing online reputations. Her strong communication skills and ability to collaborateeffectively with others make her a valuable asset to any team.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 85,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-25.jpeg",
+        "title": "Rakesh Goel",
+        "designation": "Sr Graphic Designer",
+        "description": "Rakesh Goel is a senior graphic designer with excellent communication skills. As a seasoned graphic designer, Rakesh hasan eye for design and a deep understanding of visual communication. He is skilled in creating engaging and effectivevisual designs for a variety of mediums including print, digital, and multimedia.In addition to his design expertise, Rakesh is a skilled communicator who is able to effectively convey ideas andcollaborate with clients, team members, and stakeholders. He is comfortable presenting design concepts and is able toarticulate design decisions and recommendations to both technical and non-technical audiences.Rakesh has a deep understanding of design software such as Adobe Creative Suite, Sketch, and Figma. He is experienced indesigning marketing collateral, branding materials, websites, and user interfaces that are both visually appealing anduser-friendly. He is also able to adapt to different design styles and work within brand guidelines to create cohesivedesign solutions that meet client needs.Overall, Rakesh is a talented and experienced graphic designer with strong communication skills, who is able to createeffective visual designs and collaborate effectively with others to deliver successful projects.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 86,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-26.jpeg",
+        "title": "Amulya Singh",
+        "designation": "Growth Data Analyst",
+        "description": "Amulya Singh is a Growth Data Analyst who specializes in analyzing and interpreting data to identify key insights thatdrive business growth. As a Growth Data Analyst, Amulya is responsible for collecting and analyzing data from varioussources, including web analytics, customer data, and market research, to help companies make informed decisions andoptimize their strategies.In addition to her technical expertise, Amulya is also known for her strong communication skills. She is able totranslate complex data insights into easily understandable language that can be used to inform business decisions. Herability to effectively communicate with both technical and non-technical stakeholders has made her a valuable asset toher team.Amulya is also skilled in using various data analytics tools such as SQL, Excel, and Python to perform data analysis andcreate data visualizations that effectively communicate insights. She is able to work independently or as part of ateam, and is committed to delivering high-quality work that meets project objectives and exceeds expectations.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 87,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-27.jpeg",
+        "title": "Padmanabhan",
+        "designation": "PR Executive",
+        "description": "Padmanabhan is a PR Executive with exceptional communication skills. As a PR Executive, he is responsible for buildingand maintaining positive relationships between his company and the public. Padmanabhan is adept at crafting compellingmessages and communicating them effectively to various stakeholders including clients, media outlets, and the generalpublic.He has a deep understanding of the media landscape and is skilled in using various communication channels such as pressreleases, social media, and email marketing to create and disseminate engaging content that captures the attention ofhis target audience. Padmanabhan is also experienced in crisis management and is able to respond quickly and effectivelyto any negative press or public relations issues that may arise.In addition to his communication skills, Padmanabhan is a strategic thinker who is able to develop and implementeffective PR campaigns that align with his company's goals and objectives. He is also a team player who is able tocollaborate with colleagues across different departments to ensure that PR initiatives are integrated into broadermarketing strategies.Overall, Padmanabhan is a skilled PR Executive who is passionate about building and maintaining positive relationshipswith stakeholders through effective communication and strategic thinking.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    },
+    {
+        "id": 88,
+        "category": "dubai",
+        "thumb": "/images/team/dubai-team-10.jpeg",
+        "title": "Marina",
+        "designation": "HR Manager",
+        "description": "Marina is a Human Resources Manager who possesses excellent communication skills. As an HR Manager, Marina is responsible for managing various aspects of the company's human resources activities, including recruitment, employee relations, training, and development. With her strong communication skills, Marina is able to effectively communicate with job candidates, employees, and management, ensuring that everyone is well-informed and understands the company's policies and procedures. She is skilled in conducting interviews, providing feedback to employees, and delivering presentations to management. Marina's ability to communicate effectively also allows her to build strong relationships with employees, providing them with guidance and support when needed. She is able to handle difficult situations with tact and diplomacy, and is committed to resolving conflicts in a fair and equitable manner.Furthermore, Marina understands the importance of effective communication in building a positive workplace culture. She works closely with management and employees to ensure that everyone is aligned with the company's goals and values, and that there is a sense of collaboration and teamwork across the organization.",
+        "social": {
+            "facebook": "https://www.facebook.com/",
+            "twitter": "https://twitter.com/",
+            "pinterst": "https://www.pinterest.com/",
+            "linkedin": "https://www.linkedin.com/",
+            "instagram": "https://www.instagram.com/",
+            "vimeo": "https://vimeo.com/",
+            "dribble": "https://dribbble.com/",
+            "behance": "https://www.behance.net/"
+        }
+    }
+]

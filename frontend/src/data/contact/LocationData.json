@@ -1,0 +1,40 @@
+[
+
+    {
+        "thumb": "/images/others/bangalore.jpg",
+        "title": "Bengaluru ( HeadQuarters )",
+        "urlTitle":"Bangalore",
+        "address": "7, 4th Floor, 1st Cross Rd, Balaji Layout, AMCO Colony, Koti Hosahalli, Bengaluru, Karnataka-560092"
+    },
+    {
+        "thumb": "/images/others/hydrabad.jpeg",
+        "title": "Hyderabad",
+        "urlTitle":"Hyderabad",
+        "address": "#192, 6st Cross, Huda Techno Enclave Rd, HITEC City, Madhapur, Telangana 500081"
+    },
+    {
+        "thumb": "/images/others/chennai.jpeg",
+        "title": "Chennai",
+        "urlTitle":"Chennai",
+        "address": "37, TT Krishnamachari Rd, CIT Colony, Alwarpet, Chennai, Tamil Nadu 600018"
+    },
+    {
+        "thumb": "/images/others/uae.jpg",
+        "title": "UAE",
+        "urlTitle":"Bangalore",
+        "address": "Al Marsa Street Marina Plaza,Level 25–26  – Dubai – United Arab Emirates"
+    },
+    {
+        "thumb": "/images/others/dehli.jpg",
+        "title": "Delhi",
+        "address": "2nd Floor, Next to Select Citywalk Mall, Saket District Centre, Sector 6, New Delhi 110017",
+        "thumb": "/images/others/dehli.jpg",
+        "title": "Delhi",
+        "address": "2nd Floor, Next to Select Citywalk Mall, Saket District Centre, Sector 6, New Delhi 110017"
+    },
+    {
+        "thumb": "/images/others/uae.jpg",
+        "title": "UAE",
+        "address": "Al Marsa Street Marina Plaza,Level 25–26  – Dubai – United Arab Emirates"
+    }
+]

@@ -1,0 +1,238 @@
+{
+    "mainImage":"/images/banner/11.png",
+    "image": "/images/icon/icon-29.png",
+    "title": "title",
+    "description": "description",
+    "descriptionSecond": "descriptionSecond",
+    "cate": "testing",
+    "new": "LOgo Branding",
+    "aboutUs": {
+        "title": "title",
+        "description":"description"
+    },
+    "strategy": [
+        {
+            "id": "1",
+            "title": "title",
+            "description": "description"
+        },
+        {
+            "id": "2",
+            "title": "title",
+            "description": "description"
+        },
+        {
+            "id": "3",
+            "title": "title",
+            "description": "description"
+        }
+    ],
+    "WhyHirolaServices": {
+        "title": "title",
+        "description": "description",
+        "servicesProvided": [
+            {
+                "id": "1",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "2",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "3",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "4",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "5",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "6",
+                "title": "title",
+                "description": "description"
+            }
+        ]
+    },
+    "designProcess": {
+        "title": "title",
+        "description": "description",
+        "designSteps": [
+            {
+                "id": "1",
+                "image": "/images/others/process-1.png",
+                "stepOne": "Step One",
+                "stepTwo": "Research ",
+                "stepThree": "stepThree"
+            },
+            {
+                "id": "2",
+                "image": "/images/others/process-2.png",
+                "stepOne": "Step Two",
+                "stepTwo": "Developing ",
+                "stepThree": "stepThree"
+            },
+            {
+                "id": "3",
+                "image": "/images/others/process-3.png",
+                "stepOne": "Step Three",
+                "stepTwo": "Designing ",
+                "stepThree": "stepThree"
+            },
+            {
+                "id": "4",
+                "image": "/images/others/process-4.png",
+                "stepOne": "Step Four",
+                "stepTwo": "Touchpoints ",
+                "stepThree": "stepThree"
+            },
+            {
+                "id": "5",
+                "image": "/images/others/process-4.png",
+                "stepOne": "Step Five",
+                "stepTwo": "Managing ",
+                "stepThree": "stepThree"
+            }
+        ]
+    },
+    "ServiceInformation": {
+        "title": "title",
+        "description": "ServiceInformationDescriptionOne",
+        "serviceInformationData": [
+            {
+                "id": "1",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "2",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "3",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "4",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "5",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "6",
+                "title": "title",
+                "description": "Brand culture refers to your company’s core values and how you set an example for those values with our Branding Services. Businesses have always emphasised certain values; however, those values were often things like “reliability” or “honesty.” Values that are more equivalent to basic ethics. While those are important values to hold onto, more and more businesses have begun taking moral stances as well as political stances in addition to generally accepted values. These types of values feed into your brand culture as well. Take Nike for example. They have taken strong social positions by running commercials backing Colin Kaepernick and recently touting the importance of the women’s U.S. soccer team’s World Cup win. These are branding efforts touting their championing of equality, which has become a part of their brand culture. The following are a few tips to help you establish your brand culture:"
+            },
+            {
+                "id": "7",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "8",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "9",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "10",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "11",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "12",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "13",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "14",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "15",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "16",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "17",
+                "title": "title",
+                "description": "description"
+            }
+        ]
+    },
+    "faq": {
+        "title": "title",
+        "faqData": [
+            {
+                "id": "1",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "2",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "3",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "4",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "5",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "6",
+                "title": "title",
+                "description": "description"
+            },
+            {
+                "id": "7",
+                "title": "title",
+                "description": "description"
+            }
+        ]
+    }
+}
