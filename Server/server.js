@@ -52,7 +52,7 @@ app.post('/', async (req, res) => {
     from: 'Hirola Infotech Solutions Pvt ltd<dineshroyc25@gmail.com>', // sender address
     to: process.env.EMAIL_AUTH_USER, // list of receivers
     subject: 'New Hirola Infotech Form', // Subject line
-    text: 'Hello world?', // plain text body
+    text: 'Hello world', // plain text body
     html: `<table border="1px"><tr><td>Name</td><td>${name}</td>
     </tr><tr><td>Email</td><td>${email}</td></tr>
     <tr><td>Phone-Number</td><td>${phone}</td></tr>
@@ -66,7 +66,7 @@ app.post('/', async (req, res) => {
     from: 'Hirola Infotech Solutions Pvt ltd<process.env.EMAIL_AUTH_USER>', // sender address
     to: email, // list of receivers
     subject: 'Hirola Infotech Solution pvt ltd', // Subject line
-    text: 'Hello world?', // plain text body
+    text: 'Hello world', // plain text body
     html: `
     <!DOCTYPE html>
 

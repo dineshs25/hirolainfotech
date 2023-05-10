@@ -71,7 +71,7 @@ const App = () => {
   
   return (
     <HelmetProvider>
-    <Router>
+    <Router  >
       <ScrollToTop>
         <Routes>
           <Route
