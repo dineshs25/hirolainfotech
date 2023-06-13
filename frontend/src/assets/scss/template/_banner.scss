@@ -60,6 +60,9 @@
       font-size: var(--font-body-1);
       margin-bottom: 40px;
       width: 100%;
+      @media #{$md-layout}{
+        text-align: justify;
+      }
     }
     .axil-btn {
       padding: 28px 45px;
@@ -182,7 +185,7 @@
     }
   }
   &.banner-style-1 {
-    background: url(/images/banner/hero-bg.svg);
+    // background: url(/images/banner/hero-bg.svg);
     background-repeat: no-repeat;
     width: 100%;
     .align-items-end{
@@ -597,4 +600,11 @@
   width: 90% !important;
   margin: 24px auto !important;
  }
+}
+.pm-thumbnail{
+  div{
+    img{
+      width: 95% !important;left: 50px;
+    }
+  }
 }

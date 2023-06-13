@@ -5,19 +5,28 @@ import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import BlogSidebar from '../component/blog/BlogSidebar';
 import BlogGridOne from '../component/blog/BlogGridOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import FooterCta from '../component/cta/FooterCta';
 import { Link } from 'react-router-dom';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const BlogGridView = ({title, }) => {
 
     return (
         <>
-            <SEO title="Blog Grid" />
+          
+
+
+<Helmet>
+<title>Blog | Hirola Infotech Solutions | Best Digital Marketing Agency |</title>
+<meta name='description' content='Blog section to teach our Consumers about topics that are relevant to our field with exceptional writing from top author 'data-rh="true" />
+</Helmet>
+
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 {/* <BreadCrumbOne 
                 // title="Blogs"
                 page="Blog"
@@ -55,6 +64,7 @@ const BlogGridView = ({title, }) => {
                 </div>
                 <FooterCta/>
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
             </main>
         </>
     )

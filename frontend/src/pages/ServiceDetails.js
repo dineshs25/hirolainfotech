@@ -15,6 +15,8 @@ import Tilty from 'react-tilty';
 import SEO from '../common/SEO';
 import FormOne from '../component/contact/FormOne';
 import FooterCta from '../component/cta/FooterCta';
+import { Helmet } from 'react-helmet-async';
+// import Reveal from 'react-reveal/Reveal';
 const allServiceData = ServiceData;
 
 const ServiceDetails = () => {
@@ -28,10 +30,15 @@ const ServiceDetails = () => {
 
     return (
         <>
-        <SEO title={detailsService.title} />
+        {/* <SEO title={detailsService.title} /> */}
+        <Helmet>
+<title>{detailsService.metaTitle}</title>
+<meta name='description' content={detailsService.metaDescription} data-rh="true" />
+</Helmet>
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <div className="breadcrum-area breadcrumb-banner">
             <div className="container">
                 <div className="section-heading heading-left">
@@ -99,7 +106,7 @@ const ServiceDetails = () => {
 </ul>
           {/* about us section */}
            {/* why work with us */}
-   <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+   <div className="section section-padding bg-color-light pb--80 pb_lg--40 pb_md--20">
             <div className="container">
                 <SectionTitle 
                     subtitle="Our Values"
@@ -125,7 +132,7 @@ const ServiceDetails = () => {
 
                 </div>
             </div>
-            <ul className="list-unstyled shape-group-10">
+            <ul className="list-unstyled shape-group-10 d-none">
                 <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
                 <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
                 <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
@@ -171,7 +178,7 @@ const ServiceDetails = () => {
 
     {/* our process */}
      {/* Why our services */}
-   {/* <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+   {/* <div className="section section-padding bg-color-light pb--80 pb_lg--40 pb_md--20">
             <div className="container">
                 <SectionTitle 
                     subtitle="Our Values"
@@ -267,6 +274,7 @@ const ServiceDetails = () => {
    {/* faq section goes here */}
            <FooterCta/>
         <FooterOne parentClass="" />
+       {/* </Reveal> */}
         </main>
         </>
     )

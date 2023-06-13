@@ -3,12 +3,13 @@ import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import SectionTitle from '../elements/section-title/SectionTitle';
 import citiesData from '../data/cities/citiesWeAre.json';
 import { slugify } from '../utils';
 import { Link } from 'react-router-dom';
 import FooterCta from '../component/cta/FooterCta';
+// import Reveal from 'react-reveal/Reveal';
 
 
 
@@ -26,11 +27,17 @@ const CitiesWeAre = () => {
 
     return (
         <>
-        <SEO title="Service One" />
+      
+
+
+<Helmet>
+<title>Hirola Infotech Solutions - Serving Businesses in Major Cities Across the Globe</title>
+<meta name='description' content='Hirola Infotech Solutions is a global IT solutions provider, catering to businesses in major cities worldwide. With a strong presence in key cities such as Bangalore, Mumbai,chennai ,kolkata, dubai and pune,hyderabad'data-rh="true" />
+</Helmet>
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
-            <BcrumbBannerOne 
+            {/* <Reveal effect="fadeInUp" duration={900}> */}            <BcrumbBannerOne 
                 title="Best solutions for your business"
                 paragraph ="A group of tech-savvy individuals came together to form a company that would revolutionize the world of digital marketing - Hirola InfoTech Solutions. With a mission to provide top-notch services to businesses across India, Hirola InfoTech Solutions set out to establish a strong presence in major cities such as Bangalore, Chennai, Hyderabad, Delhi, Kolkata, Mumbai, and Pune.
                 "
@@ -65,10 +72,10 @@ const CitiesWeAre = () => {
 						<div className="content">
 							<h5 className="title"> 
                             
-								<Link to={process.env.PUBLIC_URL + `/cities-we-are/${slugify(data.title)}`}>{data.new}</Link>
+								<Link to={process.env.PUBLIC_URL + `/${slugify(data.title)}`}>{data.new}</Link>
 							</h5>
 							<p>{data.description}</p>
-							<Link to={process.env.PUBLIC_URL + `/cities-we-are/${slugify(data.title)}`} className="more-btn">Find out more</Link>
+							<Link to={process.env.PUBLIC_URL + `/${slugify(data.title)}`} className="more-btn">Find out more</Link>
 						</div>
                         </div>                            
                       
@@ -93,6 +100,7 @@ const CitiesWeAre = () => {
             </div>
            <FooterCta/>
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
         </main>
         </>
     )

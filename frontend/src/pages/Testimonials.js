@@ -1,7 +1,7 @@
 import React from 'react';
 import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import SectionTitle from '../elements/section-title/SectionTitle';
@@ -9,6 +9,7 @@ import TestimonialPropTwo from '../component/testimonial/TestimonialPropTwo';
 import TestimonialData from "../data/testimonial/TestimonialData.json";
 import { slugify } from '../utils';
 import FooterCta from '../component/cta/FooterCta';
+// import Reveal from 'react-reveal/Reveal';
 const allData = TestimonialData;
 
 const Testimonials = () => {
@@ -19,10 +20,17 @@ const Testimonials = () => {
 
     return (
         <>
-        <SEO title="Testimonials" />
+       
+
+
+<Helmet>
+<title>Hirola Infotech Testimonials - Client Experiences with Exceptional IT Solutions</title>
+<meta name='description' content='Read testimonials from satisfied clients who have experienced exceptional IT solutions with Hirola Infotech. Our clients share their experiences and insights about our top-notch software development, web development, and digital marketing services.'data-rh="true" />
+</Helmet>
         <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BreadCrumbOne 
                 title="Customer Reviews"
                 page="Reviews"
@@ -57,6 +65,7 @@ const Testimonials = () => {
 
                \<FooterCta/>
                 <FooterOne parentClass="" />
+               {/* </Reveal> */}
             </main>
         </>
     )

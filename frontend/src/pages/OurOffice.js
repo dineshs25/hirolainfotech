@@ -8,6 +8,7 @@ import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import WhyChooseOne from '../component/whychoose/WhyChooseOne';
 import ProjectOne from '../component/project/ProjectOne';
 import TeamOne from '../component/team/TeamOne';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const OurOffice = () => {
@@ -17,6 +18,7 @@ const OurOffice = () => {
         <SEO title="Our Office" />
         <ColorSwitcher />
             <main className="main-wrapper">
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <HeaderOne />
                 <BcrumbBannerOne 
                 title="Our Office"
@@ -29,6 +31,7 @@ const OurOffice = () => {
                 <TeamOne />
                 <CtaLayoutOne />
                 <FooterOne parentClass="" />
+               {/* </Reveal> */}
             </main>
         </>
     )

@@ -7,13 +7,14 @@ import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import BlogSidebar from '../component/blog/BlogSidebar';
 import BlogAuthor from '../component/blog/BlogAuthor';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import { FaPlay, FaAngleRight, FaAngleLeft } from "react-icons/fa";
 import FsLightbox from 'fslightbox-react';
 import Slider from "react-slick";
 import BlogListOne from '../component/blog/BlogListOne';
 import FooterCta from '../component/cta/FooterCta';
 import { slugify } from '../utils';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const allBlogData = BlogData;
@@ -61,10 +62,18 @@ const BlogDetails = () => {
 
     return (
         <>
-            <SEO title={detailsBlog.title} />
+         
+
+
+<Helmet>
+<title>{detailsBlog.metaTitle}</title>
+<meta name='description' content={detailsBlog.metaDescription} data-rh="true" />
+</Helmet>
+
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BreadCrumbOne 
                 title={detailsBlog.title}
                 page="Blog"
@@ -159,6 +168,7 @@ const BlogDetails = () => {
                 </div>
                 <FooterCta/>
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
             </main>
         </>
     )

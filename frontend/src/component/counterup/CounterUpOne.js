@@ -5,7 +5,7 @@ import CounterUp from '../../component/counterup/CounterUp';
 
 const CounterUpOne = () => {
     return (
-        <div className="section section-padding bg-color-dark">
+        <div className="section section-padding bg-color-light">
             <div className="container">
             <SectionTitle 
                     subtitle="Our Success Story"

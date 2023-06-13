@@ -54,8 +54,9 @@ const FormTwo = () => {
 
     try {
       // alert('Form Submited');
+
       await axios
-        .post(`${process.env.REACT_APP_BACKEND_API}/`, {
+        .post('https://admin.onlinemarketingcompany.online/api/form', {
           name,
           email,
           phone,
@@ -115,7 +116,7 @@ const FormTwo = () => {
       <div className="form-group ">
         <label>Company</label>
         <input
-          type="tel"
+          type="text"
           className="form-control"
           name="contact-phone"
           placeholder="Company Name"

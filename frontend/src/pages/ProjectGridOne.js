@@ -6,6 +6,7 @@ import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import SEO from '../common/SEO';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ProjectOne from '../component/project/ProjectOne';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const ProjectGridOne = () => {
@@ -16,7 +17,7 @@ const ProjectGridOne = () => {
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
-            <BcrumbBannerOne 
+            {/* <Reveal effect="fadeInUp" duration={900}> */}            <BcrumbBannerOne 
                 title="Our Projects"
                 paragraph ="A quick view of industry specific problems solved with design by the awesome team at Abstrak.
                 "
@@ -26,6 +27,7 @@ const ProjectGridOne = () => {
             <ProjectOne />
             <CtaLayoutOne />
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
         </main>
         </>
     )

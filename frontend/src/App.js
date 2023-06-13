@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './component/scrollToTop/ScrollToTop';
+import { HelmetProvider } from 'react-helmet-async';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Home Pages Import
@@ -64,13 +65,26 @@ import JewellerySoftware from './pages/productPages/JewellerySoftware';
 import InventorySoftware from './pages/productPages/InventorySoftware';
 import SchoolSoftware from './pages/productPages/SchoolSoftware';
 import Clients from './pages/Clients';
-import { HelmetProvider } from 'react-helmet-async';
 import SeoCompanies from './pages/companies/SeoCompanies';
 import SeoCompaniesDetails from './pages/companies/SeoCompaniesDetails';
+import Delhi from './pages/cities/Delhi';
+import Bangalore from './pages/cities/Bangalore';
+import Pune from './pages/cities/Pune';
+import Kolkata from './pages/cities/Kolkata';
+import Chennai from './pages/cities/Chennai';
+import Mumbai from './pages/cities/Mumbai';
+import Hyderabad from './pages/cities/Hyderabad';
+import SeoCompanyInBangalore from './pages/companies/SeoCompanyInDelhi';
+import SeoCompanyInDelhi from './pages/companies/SeoCompanyInDelhi';
+import SeoCompanyInChennai from './pages/companies/SeoCompanyInChennai';
+import SeoCompanyInHyderabad from './pages/companies/SeoCompanyInHyderabad';
+import SeoCompanyInKolkata from './pages/companies/SeoCompanyInKolkata';
+import SeoCompanyInMumbai from './pages/companies/SeoCompanyInMumbai';
+import SeoCompanyInPune from './pages/companies/SeoCompanyInPune';
 const App = () => {
-  
+  const helmetContext = {}
   return (
-    <HelmetProvider>
+    <HelmetProvider context={helmetContext}>
     <Router  >
       <ScrollToTop>
         <Routes>
@@ -139,10 +153,10 @@ const App = () => {
             path={process.env.PUBLIC_URL + '/products/'}
             element={<OurProducts />}
           />
-          <Route
-            path={process.env.PUBLIC_URL + '/services/:slug/'}
+       {   <Route
+            path={process.env.PUBLIC_URL + '/:slug/'}
             element={<ServiceDetails />}
-          />
+          />}
 
              {/* <Route
              <Route
@@ -206,18 +220,18 @@ const App = () => {
             path={process.env.PUBLIC_URL + '/about-us/'}
             element={<AboutUs />}
           />
-          <Route
+          {/* <Route
             path={process.env.PUBLIC_URL + '/tab/'}
             element={<AboutTab />}
-          />
+          /> */}
           <Route
             path={process.env.PUBLIC_URL + '/cities-we-are/'}
             element={<CitiesWeAre />}
           />
-          <Route
-            path={process.env.PUBLIC_URL + '/cities-we-are/:slug/'}
+      {/* {    <Route
+            path={process.env.PUBLIC_URL + '/:slug/'}
             element={<CitiesWeAreDetails />}
-          />
+          />} */}
           <Route
             path={process.env.PUBLIC_URL + '/our-office/'}
             element={<OurOffice />}
@@ -243,10 +257,10 @@ const App = () => {
             path={process.env.PUBLIC_URL + '/seo-companies/'}
             element={<SeoCompanies />}
           />
-            <Route
-            path={process.env.PUBLIC_URL + '/seo-companies/:slug/'}
+            {/* <Route
+            path={process.env.PUBLIC_URL + '/:slug/'}
             element={<SeoCompaniesDetails />}
-          />
+          /> */}
           <Route
             path={process.env.PUBLIC_URL + '/testimonials/'}
             element={<Testimonials />}
@@ -293,6 +307,58 @@ const App = () => {
           <Route
             path={process.env.PUBLIC_URL + '/admin-panel/'}
             element={<AdminHome />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/digital-marketing-agency-in-delhi/'}
+            element={<Delhi />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/digital-marketing-agency-in-bangalore/'}
+            element={<Bangalore />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/digital-marketing-agency-in-pune/'}
+            element={<Pune />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/digital-marketing-agency-in-kolkata/'}
+            element={<Kolkata />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/digital-marketing-agency-in-chennai/'}
+            element={<Chennai />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/digital-marketing-agency-in-mumbai/'}
+            element={<Mumbai />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/digital-marketing-agency-in-hyderabad/'}
+            element={<Hyderabad />}
+          />
+              <Route
+            path={process.env.PUBLIC_URL + '/seo-company-in-chennai'}
+            element={<SeoCompanyInChennai />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/seo-company-in-hyderabad/'}
+            element={<SeoCompanyInHyderabad />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/seo-company-in-delhi/'}
+            element={<SeoCompanyInDelhi />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/seo-company-in-kolkata/'}
+            element={<SeoCompanyInKolkata />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/seo-company-in-mumbai/'}
+            element={<SeoCompanyInMumbai />}
+          />
+            <Route
+            path={process.env.PUBLIC_URL + '/seo-company-in-pune/'}
+            element={<SeoCompanyInPune />}
           />
         </Routes>
       </ScrollToTop>

@@ -8,6 +8,7 @@ import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import SectionTitle from '../elements/section-title/SectionTitle';
 import PricingOne from '../component/pricing/PricingOne';
 import FaqOne from '../component/faq/FaqOne';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const PricingTable = () => {
@@ -17,6 +18,7 @@ const PricingTable = () => {
         <SEO title="Pricing Table" />
         <ColorSwitcher />
             <main className="main-wrapper">
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <HeaderOne />
                 <BreadCrumbOne 
                 title="Pricing"
@@ -40,6 +42,7 @@ const PricingTable = () => {
                 <FaqOne />
                 <CtaLayoutOne />
                 <FooterOne parentClass="" />
+               {/* </Reveal> */}
             </main>
         </>
     )

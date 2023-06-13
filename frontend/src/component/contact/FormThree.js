@@ -47,16 +47,14 @@ const FormThree = () => {
       // alert('Form Submited');
 
       await axios
-        .post(`${process.env.REACT_APP_BACKEND_API}/`, {
+        .post('https://admin.onlinemarketingcompany.online/api/form', {
           name,
           email,
           phone,
           company,
           service,
-          msg,
         })
         .then(showresult(true));
-
       setTimeout(() => {
         showresult(false);
       }, 5000);

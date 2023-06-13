@@ -30,6 +30,8 @@ import { slugify } from '../utils';
 import BlogListOne from '../component/blog/BlogListOne';
 import BlogDataHome from '../component/blog/BlogDataHome';
 
+import { Helmet } from 'react-helmet-async';
+// import Reveal from 'react-reveal/Reveal';
 
 const allBlogData = BlogData;
 // const allData = HomeData;
@@ -38,15 +40,24 @@ const DigitalAgency = () => {
 
     return (
         <>
-        <SEO title="Digital Agency"/>
+        {/* <SEO
+         title="Hirola Infotech Solutions | Best Digital Marketing Agency Bangalore"
+            description="Hirola Infotech Solutions provide your business with a variety of digital solutions to promote your product/service online for your growth."
+         /> */}
+         <Helmet>
+<title>Hirola Infotech Solutions | Best Digital Marketing Agency Bangalore</title>
+<meta name='description' content='Hirola Infotech Solutions provide your business with a variety of digital solutions to promote your product/service online for your growth.'data-rh="true" />
+
+</Helmet>
         <ColorSwitcher />
         <main className="main-wrapper">
+        {/* <Reveal effect="fadeInUp" duration={900}> */}
             <HeaderOne />
             <BannerOne />
            
             <ScrollToTop/>
             <OurPatners/>
-            <div className="section section-padding-2 bg-color-dark">
+            <div className="section section-padding-2 bg-color-light">
                 <div className="container">
                     <SectionTitle 
                         subtitle="For Rankings, Sales And More"
@@ -59,11 +70,11 @@ const DigitalAgency = () => {
                         <ServicePropOne colSize="col-xl-4 col-md-6" serviceStyle="" itemShow="9" />
                     </div>
                 </div>
-                <ul className="list-unstyled shape-group-10">
+                {/* <ul className="list-unstyled shape-group-10">
                     <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/line-9.png"} alt="Circle" /></li>
                     <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/bubble-42.png"} alt="Circle" /></li>
                     <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-43.png"} alt="Circle" /></li>
-                </ul>
+                </ul> */}
             </div>
             <AboutOne />
             
@@ -121,7 +132,7 @@ const DigitalAgency = () => {
             {/* <CtaLayoutOne />  */}
 
 {/* contact form with newwletter section */}
-<>
+
     {/* <section id="news-letter" className='pt--80 pb--80 bg-color-light ' >
     <div className="container">
         <div className="row">
@@ -162,11 +173,12 @@ const DigitalAgency = () => {
     </section> */}
 <FooterCta/>  
 
-</>
+
 {/* contact form with newwletter section */}
 
         <FooterOne parentClass="" />
         <ScrollToTop/>
+       {/* </Reveal> */}
         </main>
         </>
     )

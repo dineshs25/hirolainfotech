@@ -11,8 +11,9 @@ import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 
 // our process 
 import Tilty from 'react-tilty';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import FooterCta from '../component/cta/FooterCta';
+// import Reveal from 'react-reveal/Reveal';
 const allindustriesDtata = industriesDtata;
 
 const ProductDetails = () => {
@@ -26,9 +27,13 @@ const ProductDetails = () => {
 
     return (
         <>
-        <SEO title={detailsService.title} />
+       <Helmet>
+<title>{detailsService.metaTitle}</title>
+<meta name='description' content={detailsService.metaDescription} data-rh="true" />
+</Helmet>
         <ColorSwitcher />
         <main className="main-wrapper">
+        {/* <Reveal effect="fadeInUp" duration={900}> */}
             <HeaderOne />
             <div className="breadcrum-area breadcrumb-banner">
             <div className="container">
@@ -99,6 +104,7 @@ const ProductDetails = () => {
 
         <FooterCta/>
         <FooterOne parentClass="" />
+       {/* </Reveal> */}
         </main>
         </>
     )

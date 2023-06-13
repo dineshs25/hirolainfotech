@@ -11,18 +11,26 @@ import jwellRollData from '../../data/products/jewewlerySoftware.json';
 import Accordion from 'react-bootstrap/Accordion';
 // import FaqOne from '../../component/faq/FaqOne'
 import ColorSwitcher from '../../elements/switcher/ColorSwitcher';
-import SEO from '../../common/SEO';
+import { Helmet } from 'react-helmet-async';
+// import Reveal from 'react-reveal/Reveal';
 const rollData = jwellRollData
 
 const JewellerySoftware = () => {
   return (
     <>
-     <SEO title="title" />
+    
+
+
+<Helmet>
+<title>Streamline Your Jewellery Business with Powerful Jewellery Software | Simplify Operations</title>
+<meta name='description' content='Simplify and optimize your jewellery business operations with powerful Jewellery Software. Effectively manage inventory, sales, customer information, and invoicing in one comprehensive platform'data-rh="true" />
+</Helmet>
             <ColorSwitcher />
   {
     rollData.map((jwellData)=>(
       <main className="main-wrapper">
             <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <BcrumbBannerTwo 
             title={jwellData.bannerTitle}
             paragraph ={jwellData.description}
@@ -64,6 +72,7 @@ const JewellerySoftware = () => {
         </div>
       </div>
         <FooterOne parentClass="" />
+       {/* </Reveal> */}
         </main>
     ))
   }

@@ -5,6 +5,7 @@ import SEO from '../common/SEO';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
+// import Reveal from 'react-reveal/Reveal';
 
 const Typography = () => {
 
@@ -14,6 +15,7 @@ const Typography = () => {
         <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BreadCrumbOne 
                 title="Typography"
                 page="Typography"
@@ -67,6 +69,7 @@ const Typography = () => {
                 </div>
                 <CtaLayoutOne />
                 <FooterOne parentClass="" />
+               {/* </Reveal> */}
             </main>
         </>
     )

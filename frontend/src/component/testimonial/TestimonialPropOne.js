@@ -12,12 +12,12 @@ const TestimonialItem = ({colSize, itemShow}) => {
                 <div className={`${colSize}`} key={index}>
                     <div className="testimonial-grid">
                         <span className="social-media">
-                            <img src={process.env.PUBLIC_URL + data.from} alt="Yelp" />
+                            {/* <img src={process.env.PUBLIC_URL + data.from} alt="Yelp" /> */}
                         </span>
                         <p>{data.description}</p>
                         <div className="author-info">
                             <div className="thumb">
-                                <img src={process.env.PUBLIC_URL + data.authorimg} alt="Google Review" />
+                                <img src={process.env.PUBLIC_URL + data.from} alt="Google Review" />
                             </div>
                             <div className="content">
                                 <span className="name">{data.authorname}</span>

@@ -6,6 +6,7 @@ import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
 import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import ClientBrandItem from '../component/brand/ClientBrandItem';
+// import Reveal from 'react-reveal/Reveal';
 
 const OurClients = () => {
 
@@ -14,6 +15,7 @@ const OurClients = () => {
         <SEO title="Our Clients" />
         <ColorSwitcher />
             <main className="main-wrapper">
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <HeaderOne />
                 <BcrumbBannerOne 
                 title="Our Clients"
@@ -30,6 +32,7 @@ const OurClients = () => {
                 </div>
                 <CtaLayoutOne />
                 <FooterOne parentClass="" />
+               {/* </Reveal> */}
             </main>
         </>
     )

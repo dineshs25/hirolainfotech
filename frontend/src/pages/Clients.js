@@ -10,6 +10,7 @@ import BannerThree from '../component/banner/BannerThree';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import SEO from '../common/SEO';
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
+// import Reveal from 'react-reveal/Reveal';
 const ClientsData = clientsData;
 
 const Clients = () => {
@@ -17,6 +18,7 @@ const Clients = () => {
         <>
         <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <SEO/>
                 <BcrumbBannerOne 
                 title="Our Clients"
@@ -52,6 +54,7 @@ As a provider of IT services, Hirola InfoTech Solutions may offer services such 
             </div>
          <FooterCta/>
          <FooterOne/>
+        {/* </Reveal> */}
             </main>
         </>
     )

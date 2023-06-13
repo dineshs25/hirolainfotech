@@ -9,6 +9,7 @@ import ServiceData from "../../data/companies/SeoCompanies.json";
 import { slugify } from '../../utils';
 import FooterCta from '../../component/cta/FooterCta';
 import CompaniesProp from '../../component/companies/CompaniesProp';
+// import Reveal from 'react-reveal/Reveal';
 
 const allData = ServiceData;
 
@@ -22,10 +23,11 @@ const SeoCompanies = () => {
 
     return (
         <>
-        <SEO title="Service One" />
+        <SEO title="Seo Companies" />
         <ColorSwitcher />
         <main className="main-wrapper">
-            <HeaderOne />
++            <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <BcrumbBannerOne 
                 title="Best Digital Marketing Services In Bangalore"
                 paragraph ="Unlock the power of digital marketing to grow your business and reach a wider audience. Our comprehensive digital marketing services combine cutting-edge strategies, data-driven insights, and creative expertise to maximize your online presence and drive measurable results. From search engine optimization (SEO) to social media management, pay-per-click advertising (PPC), content marketing, and more, we tailor our services to suit your unique business objectives."
@@ -57,6 +59,7 @@ const SeoCompanies = () => {
             </div>
             <FooterCta/>
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
         </main>
         </>
     )

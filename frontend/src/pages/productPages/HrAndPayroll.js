@@ -12,18 +12,23 @@ import payRollData from '../../data/products/payrollSoftware.json';
 import Accordion from 'react-bootstrap/Accordion';
 // import FaqOne from '../../component/faq/FaqOne'
 import ColorSwitcher from '../../elements/switcher/ColorSwitcher';
-import SEO from '../../common/SEO';
+import { Helmet } from 'react-helmet-async';
+// import Reveal from 'react-reveal/Reveal';
 const rollData = payRollData
 
 const HrAndPayroll = () => {
   return (
     <>
-     <SEO title="title" />
+    <Helmet>
+<title>Discover the Best HR & Payroll Management System Software | Streamline Your HR Processes</title>
+<meta name='description' content='Streamline your HR processes with the best HR & Payroll Management System Software. Simplify payroll management, track employee attendance, manage leave requests, and automate HR tasks effortlessly.'data-rh="true" />
+</Helmet>
             <ColorSwitcher />
   {
     rollData.map((payData)=>(
       <main className="main-wrapper">
             <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <BcrumbBannerTwo
             title={payData.banner.title}
             paragraph ={payData.banner.description}
@@ -64,6 +69,7 @@ const HrAndPayroll = () => {
         </div>
       </div>
         <FooterOne parentClass="" />
+       {/* </Reveal> */}
         </main>
     ))
   }

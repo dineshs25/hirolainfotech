@@ -9,6 +9,7 @@ import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import SplashData from '../data/splash/SplashData.json';
 import { slugify } from '../utils';
 import { FaAngleRight } from "react-icons/fa";
+// import Reveal from 'react-reveal/Reveal';
 
 const DemoData = SplashData[0];
 const FeatureData = SplashData[1];
@@ -21,6 +22,7 @@ const Splash = () => {
         <ColorSwitcher />
             <main className="main-wrapper">
                 <SplashHeader />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <SplashBanner />
 
                 <div className="section main-demo-area bg-color-light" id="splash-demo">
@@ -180,6 +182,7 @@ const Splash = () => {
                 </div>
                 <SplashCta />
                 <SplashFooter />
+               {/* </Reveal> */}
             </main>
         </>
     )

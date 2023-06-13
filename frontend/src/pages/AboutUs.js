@@ -19,20 +19,29 @@ import { Link } from 'react-router-dom';
 import AboutSix from '../component/about/AboutSix';
 import FooterCta from '../component/cta/FooterCta';
 import OurPatners from '../component/home/OurPatners';
-
+import { Helmet } from 'react-helmet-async';
+import Fade from 'react-reveal/Fade';
+// import Reveal from 'react-reveal/Reveal';
 const allData = AboutData;
 
 const AboutUs = () => {
     
 console.log(allData)
+
     return (
         <>
-        <SEO title="About Us | Digital Marketing Agency | Hirola InfoTech Solutions" description="" keywords=""/>
+       
+        {/* <SEO title="About Us | Digital Marketing Agency | Hirola InfoTech Solutions" description="" keywords=""/> */}
+        <Helmet>
+<title>About Us | Digital Marketing Agency | Hirola InfoTech Solutions</title>
+<meta name='description' content='A full service digital marketing, social media agency. We develop effective content strategies for corporate brands under our proven results'data-rh="true" />
+</Helmet>
         <ColorSwitcher />
            {
             allData.map((aboutUsData)=>(
                 <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BcrumbBannerOne 
                 title={aboutUsData.title}
                 paragraph ={aboutUsData.description}
@@ -82,7 +91,7 @@ console.log(allData)
 </ul>
 
           {/* about us section */}
-                <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+                <div className="section section-padding bg-color-light pb--80 pb_lg--40 pb_md--20">
             <div className="container">
                 <SectionTitle 
                     subtitle="WE'RE THE BEST"
@@ -105,7 +114,7 @@ console.log(allData)
 
                 </div>
             </div>
-            <ul className="list-unstyled shape-group-10">
+            <ul className="list-unstyled shape-group-10 d-none">
                 <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
                 <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
                 <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
@@ -113,7 +122,7 @@ console.log(allData)
         </div>
                 <AboutSix />
                 <CounterUpOne/>
-                <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+                <div className="section section-padding bg-color-light pb--80 pb_lg--40 pb_md--20">
             <div className="container">
                 <SectionTitle 
                     subtitle="Our Values"
@@ -136,7 +145,7 @@ console.log(allData)
 
                 </div>
             </div>
-            <ul className="list-unstyled shape-group-10">
+            <ul className="list-unstyled shape-group-10 d-none">
                 <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
                 <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
                 <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
@@ -269,10 +278,10 @@ console.log(allData)
 						</div> */}
 						<div className="content">
 							<h5 className="title"> 
-								<Link to={process.env.PUBLIC_URL + `/services/${slugify(data.urlTitle)}`}>{data.title}</Link>
+								<Link to={process.env.PUBLIC_URL + `/${slugify(data.urlTitle)}`}>{data.title}</Link>
 							</h5>
 							<p>{data.description}</p>
-							<Link to={process.env.PUBLIC_URL + `/services/${slugify(data.urlTitle)}`} className="more-btn">Find out more</Link>
+							<Link to={process.env.PUBLIC_URL + `/${slugify(data.urlTitle)}`} className="more-btn">Find out more</Link>
 						</div>
 					</div>
 			 	</div>
@@ -314,6 +323,7 @@ console.log(allData)
                {/* faq section ends here */}
                 <FooterCta/>
                 <FooterOne parentClass="" />
+          {/* </Reveal> */}
             </main>
             ))
            }

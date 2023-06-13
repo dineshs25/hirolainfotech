@@ -19,6 +19,7 @@ import ProductSectionThree from '../component/product/ProductSectionThree';
 import ProductSectionFour from '../component/product/ProductSectionFour';
 import ProductSectionSix from '../component/product/ProductSectionSix';
 import ProductSectionFive from '../component/product/ProductSectionFive';
+// import Reveal from 'react-reveal/Reveal';
 const allProductData = ProductData;
 // const getProjectData = ProjectData;
 // const getProcesstData = ProcesstData;
@@ -37,6 +38,7 @@ const ProductDetails = () => {
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <div className="breadcrum-area breadcrumb-banner">
             <div className="container">
                 <div className="section-heading heading-left">
@@ -73,6 +75,7 @@ const ProductDetails = () => {
             <CtaLayoutOne />
            
         <FooterOne parentClass="" />
+       {/* </Reveal> */}
         </main>
         </>
     )

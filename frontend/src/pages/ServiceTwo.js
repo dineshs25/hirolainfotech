@@ -9,6 +9,7 @@ import SectionTitle from '../elements/section-title/SectionTitle';
 import ServicePropOne from '../component/service/ServicePropOne';
 import AboutThree from '../component/about/AboutThree';
 import CounterUpTwo from '../component/counterup/CounterUpTwo';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const ServiceTwo = () => {
@@ -21,6 +22,7 @@ const ServiceTwo = () => {
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <BcrumbBannerOne 
                 title="Best solutions for your business"
                 paragraph ="Give your business a unique logo to stand out from crowd. We’ll create logo specifically for your company.
@@ -48,6 +50,7 @@ const ServiceTwo = () => {
             
             <CtaLayoutOne />
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
         </main>
         </>
     )

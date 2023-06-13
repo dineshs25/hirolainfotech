@@ -11,6 +11,7 @@ import { slugify } from '../utils';
 import { FaFacebookF, FaTwitter, FaPinterestP, FaLinkedinIn, FaInstagram, FaVimeoV, FaDribbble, FaBehance } from "react-icons/fa";
 import Tilty from 'react-tilty';
 import FooterCta from '../component/cta/FooterCta';
+// import Reveal from 'react-reveal/Reveal';
 
 const allData = TeamData;
 
@@ -29,6 +30,7 @@ const TeamDetails = () => {
         <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BreadCrumbOne 
                  title={detailsTeam.title}
                  page="Team Details"
@@ -67,6 +69,7 @@ const TeamDetails = () => {
 
            <FooterCta/>
                 <FooterOne parentClass="" />
+               {/* </Reveal> */}
             </main>
         </>
     )

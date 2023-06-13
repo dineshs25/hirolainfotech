@@ -10,20 +10,28 @@ import InventoryOne from '../../component/product/inventory/InventoryOne';
 import InventoryTwo from '../../component/product/inventory/InventoryTwo';
 import InventoryServices from '../../component/product/inventory/InventoryServices';
 import ColorSwitcher from '../../elements/switcher/ColorSwitcher';
-import SEO from '../../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import inventoryData from '../../data/products/inventorySoftware.json'
 import Accordion from 'react-bootstrap/Accordion';
+// import Reveal from 'react-reveal/Reveal';
 const inventData  = inventoryData;
 
 const InventorySoftware = () => {
   return (
     <>
-     <SEO title="title" />
+     
+
+
+<Helmet>
+<title>Optimize Your Inventory Management with a Powerful System | Efficient Inventory Control</title>
+<meta name='description' content='Enhance your inventory management process with a powerful and efficient Inventory Management System. Gain real-time visibility into your stock levels, streamline order fulfillment, track inventory movement, and minimize stockouts and overstocks.'data-rh="true" />
+</Helmet>
             <ColorSwitcher />
 {
   inventData.map((inventoryInfo)=>(
     <main className="main-wrapper">
             <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <BcrumbBannerTwo 
             title={inventoryInfo.title}
             paragraph ={inventoryInfo.description}
@@ -62,6 +70,7 @@ const InventorySoftware = () => {
         </div>
       </div>
            <FooterCta/>
+          {/* </Reveal> */}
         <FooterOne parentClass="" />
         </main>
   ))

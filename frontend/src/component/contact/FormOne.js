@@ -20,10 +20,10 @@ const FormOne = () => {
 
   //   emailjs
   //     .sendForm(
-  //       'service_yj5dgzp',
-  //       'template_hfduayo',
+  //       'service_3bj9fv8',
+  //       'template_olxl21f',
   //       form.current,
-  //       'WLENsTkBytC0yvItS'
+  //       '46uz4-y8RPkF7iJFK'
   //     )
   //     .then(
   //       (result) => {
@@ -58,7 +58,7 @@ const FormOne = () => {
       // alert('Form Submited');
 
       await axios
-        .post(`${process.env.REACT_APP_BACKEND_API}/`, {
+        .post('https://admin.onlinemarketingcompany.online/api/form', {
           name,
           email,
           phone,
@@ -120,7 +120,7 @@ const FormOne = () => {
         <input
           type="tel"
           className="form-control"
-          name="contact-phone"
+          name="company-name"
           placeholder="Company Name"
           onChange={(e) => {
             setCompany(e.target.value);
@@ -138,9 +138,9 @@ const FormOne = () => {
           id="cars"
           required>
           <option disabled selected hidden>Choose Your Service</option>
-          <option value="Digital Marketing">Digital Marketing</option>
-          <option value="Web Development">Web Development</option>
-          <option value="Branding">Branding</option>
+          <option value="Digital Marketing"  >Digital Marketing</option>
+          <option value="Web Development" >Web Development</option>
+          <option value="Branding" >Branding</option>
         </Form.Select>
       </div>
       <div className="form-group">

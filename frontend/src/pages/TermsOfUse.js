@@ -5,6 +5,7 @@ import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import SEO from '../common/SEO';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const TermsOfUse = () => {
@@ -15,6 +16,7 @@ const TermsOfUse = () => {
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BreadCrumbOne 
                 title="Terms Of Use"
                 page="Terms Of Use"
@@ -44,6 +46,7 @@ const TermsOfUse = () => {
 
                 <CtaLayoutOne />
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
             </main>
         </>
     )

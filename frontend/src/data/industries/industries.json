@@ -2,6 +2,8 @@
 
         {
             "id": "1",
+            "metaTitle":"Hirola Infotech Solutions: Driving Digital Success in the Automotive Industry",
+            "metaDescription":"Boost your automotive business with Hirola Infotech Solutions, a leading digital marketing agency specializing in cutting-edge strategies tailored for the automotive industry.",
             "BannerImg":"/images/industries/automotive.png",
             "image":"/images/industryicon/icon-1.png",
             "cate":"industries",
@@ -22,6 +24,8 @@
         },
         {
             "id": "2",
+            "metaTitle":"Transforming Education with Hirola Infotech Solutions | Digital Marketing for Educational Institutions",
+            "metaDescription":"Hirola Infotech Solutions revolutionizes the education industry through cutting-edge digital marketing strategies. Discover how our tailored solutions empower educational institutions to attract students, enhance brand visibility, and drive academic success.",
             "BannerImg":"/images/industries/education.png",
             "image":"/images/industryicon/icon-2.png",
             "cate":"industries",
@@ -40,6 +44,8 @@
         },
         {
             "id": "3",
+            "metaTitle":"Hirola Infotech Solutions - Expert Digital Marketing for the Entertainment Industry",
+            "metaDescription":"Hirola Infotech Solutions offers specialized digital marketing services tailored for the entertainment industry.Reach your target market effectively and maximize your brand's visibility with Hirola Infotech Solutions.",
             "BannerImg":"/images/industries/entertainment.png",
             "image":"/images/industryicon/icon-3.png",
             "cate":"industries",
@@ -59,6 +65,8 @@
         },
         {
             "id": "4",
+            "metaTitle":"Hirola Infotech Solutions: Empowering Financial Services through Digital Marketing",
+            "metaDescription":"Hirola Infotech Solutions is a leading digital marketing agency specializing in providing comprehensive solutions for the financial services industry. With our expertise, we help financial institutions leverage the power of digital marketing strategies to increase brand visibility",
             "BannerImg":"/images/industries/finance.png",
             "image":"/images/industryicon/icon-4.png",
             "cate":"industries",
@@ -80,6 +88,8 @@
 
         {
             "id": "5",
+            "metaTitle":"Hirola Infotech Solutions: Expert Digital Marketing for Food & Drink Industry",
+            "metaDescription":"Boost your online presence and skyrocket your food and drink business with Hirola Infotech Solutions. Our expert digital marketing services are tailored specifically for the food and drink industry, helping you attract more customers, increase brand visibility, and drive higher sales. ",
             "BannerImg":"/images/industries/food.png",
             "image":"/images/industryicon/icon-5.png",
             "cate":"industries",
@@ -99,6 +109,8 @@
         },
         {
             "id": "6",
+            "metaTitle":"Hirola Infotech Solutions: Empowering Healthcare with Digital Marketing Expertise",
+            "metaDescription":"Transform your healthcare business with Hirola Infotech Solutions. Our digital marketing experts specialize in providing innovative strategies tailored to the unique needs of the healthcare industry. ",
             "BannerImg":"/images/industries/hospital.png",
             "image":"/images/industryicon/icon-6.png",
             "cate":"industries",
@@ -118,6 +130,8 @@
         },
         {
             "id": "7",
+            "metaTitle":"Transform Your Home Services Business with Hirola Infotech Solutions - Hirola",
+            "metaDescription":"Hirola Infotech Solutions offers cutting-edge digital marketing strategies tailored specifically for the Home Services industry. From SEO optimization to social media marketing, we help you reach your target audience and grow your online presence. ",
             "BannerImg":"/images/industries/home.png",
             "image":"/images/industryicon/icon-7.png",
             "cate":"industries",
@@ -139,6 +153,8 @@
         },
         {
             "id": "8",
+            "metaTitle":"Boost Your Hospitality & Travel Business with Hirola Infotech Solutions",
+            "metaDescription":"Hirola Infotech Solutions offers cutting-edge digital marketing services tailored for the hospitality and travel industry. Contact us today to elevate your business to new heights in the digital landscape.",
             "BannerImg":"/images/industries/travel.png",
             "image":"/images/industryicon/icon-8.png",
             "cate":"industries",
@@ -157,6 +173,8 @@
         },
         {
             "id": "9",
+            "metaTitle":"Hirola Infotech Solutions: Expert Digital Marketing for Real Estate Industry",
+            "metaDescription":"Hirola Infotech Solutions offers comprehensive digital marketing solutions tailored specifically for the real estate industry. Contact us today to elevate your real estate business to new heights.",
             "BannerImg":"/images/industries/real-estate.png",
             "image":"/images/industryicon/icon-9.png",
             "cate":"industries",

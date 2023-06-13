@@ -11,6 +11,7 @@ import ServicePropOne from '../component/service/ServicePropOne';
 import SectionTitle from '../elements/section-title/SectionTitle';
 import BannerFive from '../component/banner/BannerFive';
 import HeaderFour from '../common/header/HeaderFour';
+// import Reveal from 'react-reveal/Reveal';
 
 const CorporateAgency = () => {
 
@@ -19,6 +20,7 @@ const CorporateAgency = () => {
         <SEO title="Corporate Agency"/>
         <ColorSwitcher />
         <main className="main-wrapper">
+        {/* <Reveal effect="fadeInUp" duration={900}> */}
         <HeaderFour />
         <BannerFive />
 
@@ -48,6 +50,7 @@ const CorporateAgency = () => {
         <BlogOne />
         <CtaLayoutOne />
         <FooterOne />
+       {/* </Reveal> */}
         </main>
         </>
     )

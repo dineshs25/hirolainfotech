@@ -6,7 +6,7 @@ const Ourvalues = () => {
     <>
 {
 schData.map((schoolInfo)=>(
-  <div className="section section-padding case-study-featured-area bg-color-dark text-white">
+  <div className="section section-padding case-study-featured-area bg-color-light text-white school-s">
     <div className="container">
               <h3 className="title text-center">{schoolInfo.aboutUs.title}</h3>
               <p className="subtitle">{schoolInfo.aboutUs.description}</p>

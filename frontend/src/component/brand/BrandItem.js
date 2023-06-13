@@ -22,7 +22,7 @@ const BrandItem = () => {
                     </div>
                 </div>
             ))}
-            <Link to={process.env.PUBLIC_URL + "/clients"} className="axil-btn btn-fill-primary btn-medium clients-btn ">For More </Link> 
+            <Link to={process.env.PUBLIC_URL + "/about-us"} className="axil-btn btn-fill-primary btn-medium clients-btn ">For More </Link> 
 
         </>
     )

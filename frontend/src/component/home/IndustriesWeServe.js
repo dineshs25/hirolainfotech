@@ -8,7 +8,7 @@ console.log(allHomedata)
 const IndustriesWeServe = () => {
   return (
    
-    <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+    <div className="section section-padding bg-color-light pb--80 pb_lg--40 pb_md--20">
    {
     allHomedata.map((homeData)=>(
         <div className="container">
@@ -38,11 +38,11 @@ const IndustriesWeServe = () => {
     </div>
     ))
    }
-    <ul className="list-unstyled shape-group-10">
+    {/* <ul className="list-unstyled shape-group-10">
         <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
         <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
         <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
-    </ul>
+    </ul> */}
 </div>
   )
 }

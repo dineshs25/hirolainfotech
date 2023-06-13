@@ -19,24 +19,25 @@
     @media #{$md-layout} {
         padding: 40px 25px;
     }
-    &:after {
-        content: "";
-        height: 100%;
-        width: 100%;
-        background: var(--gradient-dark);
-        border: 1px solid;
-        border-image-source: linear-gradient(0deg, #27272E 64.45%, rgba(74, 75, 86, 0.72) 100%);
-        border-radius: 30px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: -1;
-        visibility: hidden;
-        opacity: 0;
-        transition: var(--transition);
-    }
+    // &:after {
+        // content: "";
+        // height: 100%;
+        // width: 100%;
+        // box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 13px;
+    //     background: var(--gradient-dark);
+    //     border: 1px solid;
+    //     border-image-source: linear-gradient(0deg, #27272E 64.45%, rgba(74, 75, 86, 0.72) 100%);
+    //     border-radius: 30px;
+    //     position: absolute;
+    //     top: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     right: 0;
+    //     z-index: -1;
+    //     visibility: hidden;
+    //     opacity: 0;
+    //     transition: var(--transition);
+    // }
     .thumbnail {
         margin-right: 25px;
         max-width: 85px;
@@ -66,8 +67,8 @@
             }
         }
         p {
-            color: var(--color-white);
-            opacity: 0.5;
+            color: var(--color-black);
+            // opacity: 0.5;
             letter-spacing: -0.025em;
             transition: var(--transition);
             width: 100%;
@@ -79,7 +80,7 @@
         }
         .more-btn {
             font-weight: 500;
-            color: var(--color-white);
+            color: var(--color-black);
             position: relative;
             padding-left: 50px;
             &:before {
@@ -107,8 +108,8 @@
         }
         .content {
             p {
-                color: var(--color-light);
-                opacity: 1;
+                // color: var(--color-light);
+                // opacity: 1;
             }
             .more-btn {
                 color: var(--color-accent2);

@@ -4,7 +4,6 @@ import Modal from 'react-bootstrap/Modal';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { Link } from 'react-router-dom';
 import SVGComponent from '../svg/SvgComponent';
-
 const BannerOne = () => {
     const values = [true];
     const [fullscreen, setFullscreen] = useState(true);
@@ -36,7 +35,9 @@ const BannerOne = () => {
       </Modal>
                             <AnimationOnScroll animateIn="fadeInUp" animateOnce={true} delay={100}>
                                 <h1 className="title">
-Let’s Make Something Amazing Together</h1>
+                        
+Let’s Make <br/>  Amazing Together
+</h1>
                                 <span className="subtitle">Join the digital revolution today and grow your business with Hirola InfoTech Solutions - the best digital marketing agency in Bangalore. Let our talented team of experts take care of your SEO, SMO, web design, and PPC needs and many .</span>
                                 <Link to={process.env.PUBLIC_URL + "/contact-us"} className="axil-btn btn-fill-primary btn-large">Get Started </Link> <span className='sp-btn' >Digital Marketing Agency</span>
                             </AnimationOnScroll>

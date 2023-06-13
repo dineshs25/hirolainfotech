@@ -1,7 +1,7 @@
 import React from 'react';
 import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import CaseStudyProp from '../component/casestudy/CaseStudyProp';
@@ -12,7 +12,14 @@ const CaseStudy = () => {
 
     return (
         <>
-        <SEO title="Case Study" />
+        
+
+
+<Helmet>
+<title>Case Studies | Digital Marketing Agency | Hirola InfoTech Solutions</title>
+<meta name='description' content='Hirola case studies show that with an integrated digital and inbound marketing strategy, businesses can get a better return on investment.'data-rh="true" />
+</Helmet>
+
         <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />

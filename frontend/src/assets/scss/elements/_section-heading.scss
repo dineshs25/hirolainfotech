@@ -18,7 +18,7 @@
         margin-bottom: 10px;
     }
     .subtitle {
-        // color: var(--color-mabel);
+        color: var(--color-black);
         font-weight: 500;
         font-size: 20px;
         font-family: var(--font-primary);
@@ -73,7 +73,9 @@
         }
     }
     .service_desc{
-        width: 90% !important;
+        width: 100% !important;
+        text-align: center;
+        color: var(--color-black);
     }
     p {
         // font-size: var(--font-body-1);
@@ -1068,7 +1070,7 @@ body.active-dark-mode {
 // Wrapper 
 .main-wrapper {
     overflow: hidden;
-    background-color: #e6f9ff;
+    background-color: #fcf3fa;
     // background: url(/images/banner/hero-bg.svg);
     // background-repeat: no-repeat;
     // width: 100%;
@@ -1079,4 +1081,8 @@ body.active-dark-mode {
     p{
         text-align: left;
     }
+}
+
+.dark-version-logo1{
+    display: none;
 }

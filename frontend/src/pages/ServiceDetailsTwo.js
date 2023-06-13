@@ -14,6 +14,7 @@ import AboutTwo from '../component/about/AboutTwo';
 import AboutThree from '../component/about/AboutThree';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import SEO from '../common/SEO';
+// import Reveal from 'react-reveal/Reveal';
 
 const allServiceData = ServiceData;
 const getProjectData = ProjectData;
@@ -33,6 +34,7 @@ const ServiceDetails = () => {
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <BcrumbBannerOne 
             title={detailsService.title}
             paragraph ={detailsService.description}
@@ -133,6 +135,7 @@ const ServiceDetails = () => {
         
             <CtaLayoutOne />
         <FooterOne parentClass="" />
+       {/* </Reveal> */}
         </main>
         </>
     )

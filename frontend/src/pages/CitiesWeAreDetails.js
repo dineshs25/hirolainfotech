@@ -12,9 +12,10 @@ import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 // our process 
 import SectionTitle from '../elements/section-title/SectionTitle';
 import Tilty from 'react-tilty';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import FormOne from '../component/contact/FormOne';
 import FooterCta from '../component/cta/FooterCta';
+// import Reveal from 'react-reveal/Reveal';
 const allCitiesData = CitiesData;
 
 const CitiesWeAreDetails = () => {
@@ -28,10 +29,18 @@ const CitiesWeAreDetails = () => {
 
     return (
         <>
-        <SEO title={detailsService.title} />
+        
+
+
+<Helmet>
+<title>{detailsService.metaTitle}</title>
+<meta name='description' content={detailsService.metaDescription} data-rh="true" />
+</Helmet>
+
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <BcrumbBannerOne 
             title={detailsService.subtitle}
             paragraph ={detailsService.description}
@@ -77,7 +86,7 @@ const CitiesWeAreDetails = () => {
 
 {/* about us in cities wew are located */}
  {/* why work with us */}
- <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+ <div className="section section-padding bg-color-light pb--80 pb_lg--40 pb_md--20">
             <div className="container">
                 <SectionTitle 
                     subtitle="What's Included"
@@ -103,7 +112,7 @@ const CitiesWeAreDetails = () => {
 
                 </div>
             </div>
-            <ul className="list-unstyled shape-group-10">
+            <ul className="list-unstyled shape-group-10 d-none">
                 <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
                 <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
                 <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
@@ -206,7 +215,7 @@ const CitiesWeAreDetails = () => {
 
 
      {/* Why our services */}
-   <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
+   <div className="section section-padding bg-color-light pb--80 pb_lg--40 pb_md--20">
             <div className="container">
                 <SectionTitle 
                     subtitle="Our Valus"
@@ -229,7 +238,7 @@ const CitiesWeAreDetails = () => {
 
                 </div>
             </div>
-            <ul className="list-unstyled shape-group-10">
+            <ul className="list-unstyled shape-group-10 d-none">
                 <li className="shape shape-1"><img src={process.env.PUBLIC_URL + "/images/others/circle-1.png"} alt="Circle" /></li>
                 <li className="shape shape-2"><img src={process.env.PUBLIC_URL + "/images/others/line-3.png"} alt="Circle" /></li>
                 <li className="shape shape-3"><img src={process.env.PUBLIC_URL + "/images/others/bubble-5.png"} alt="Circle" /></li>
@@ -294,6 +303,7 @@ const CitiesWeAreDetails = () => {
 
                 
         <FooterOne parentClass="" />
+       {/* </Reveal> */}
         </main>
         </>
     )

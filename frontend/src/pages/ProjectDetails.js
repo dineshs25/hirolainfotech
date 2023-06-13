@@ -11,10 +11,11 @@ import { FaCompress, FaCode, FaGlobe } from 'react-icons/fa';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import SEO from '../common/SEO';
 import FooterCta from '../component/cta/FooterCta';
-
+import Tilty from 'react-tilty';
+// import Reveal from 'react-reveal/Reveal';
 const allProjectData = ProjectData;
 
-const ProjectDetails = () => {
+const ProjectDetails = ({title, paragraph, mainThumb}) => {
 
     const params = useParams();
     const projectSlug = params.slug;
@@ -29,11 +30,37 @@ const ProjectDetails = () => {
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
-            <BcrumbBannerTwo 
-            title={detailsProject.title}
-            paragraph ={detailsProject.excerpt}
-            mainThumb={detailsProject.image}
-            />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
+            <div className="breadcrum-area breadcrumb-banner single-breadcrumb">
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-lg-6">
+                        <div className="section-heading heading-left">
+                            <h1 className="title h2" >{detailsProject.title}</h1>
+                            <p >{detailsProject.excerpt}</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="banner-thumbnail pm-thumbnail">
+                            <Tilty perspective={2000} reset={false}>
+                                <img src={process.env.PUBLIC_URL + detailsProject.image} alt="Illustration" />
+                            </Tilty>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul className="shape-group-8 list-unstyled">
+                <li className="shape shape-1">
+                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-9.png"} alt="Bubble" />
+                </li>
+                <li className="shape shape-2">
+                    <img src={process.env.PUBLIC_URL + "/images/others/bubble-20.png"} alt="Bubble" />
+                </li>
+                <li className="shape shape-3">
+                    <img src={process.env.PUBLIC_URL + "/images/others/line-4.png"} alt="Line" />
+                </li>
+            </ul>
+        </div>
             <section className="section-padding single-portfolio-area">
                 <div className="container">
                     <div className="row">
@@ -59,6 +86,7 @@ const ProjectDetails = () => {
             <VideoOne />
            <FooterCta/>
         <FooterOne parentClass="" />
+       {/* </Reveal> */}
         </main>
         </>
     )

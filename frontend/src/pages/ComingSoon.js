@@ -5,11 +5,12 @@ import { FaEnvelopeOpen } from "react-icons/fa";
 import Countdown from "react-countdown";
 import HeaderOne from "../common/header/HeaderOne";
 import FooterOne from "../common/footer/FooterOne";
+// import Reveal from 'react-reveal/Reveal';
 
 const ComingSoon = () => {
   const Completionist = () => <span>Our Site is Ready to Go!</span>;
 
-  const SetCountdownTime = "2023-05-30T19:00:00";
+  const SetCountdownTime = "2023-06-30T19:00:00";
 
   const CountDownRender = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
@@ -42,6 +43,7 @@ const ComingSoon = () => {
     <>
       <SEO title="Coming Soon" />
       <HeaderOne />
+      {/* <Reveal effect="fadeInUp" duration={900}> */}
       <ColorSwitcher />
       <main className="main-wrapper">
         <div className="coming-soon-area onepage-screen-area">
@@ -121,6 +123,7 @@ const ComingSoon = () => {
         </div>
         <FooterOne />
       </main>
+     {/* </Reveal> */}
     </>
   );
 };

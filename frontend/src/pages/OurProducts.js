@@ -3,12 +3,13 @@ import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
 import BcrumbBannerOne from '../elements/breadcrumb/BcrumbBannerOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import SectionTitle from '../elements/section-title/SectionTitle';
 
 import ProductData from "../data/products/ProductsMain.json";
 import ProductPropOne from '../component/product/ProductPropOne';
 import FooterCta from '../component/cta/FooterCta';
+// import Reveal from 'react-reveal/Reveal';
 
 const allData = ProductData;
 
@@ -22,10 +23,15 @@ const OurProducts = () => {
 
     return (
         <>
-        <SEO title="Service One" />
+         <Helmet>
+<title>Software Development Services in Bangalore | Hirola InfoTech Solutions</title>
+<meta name='description' content='Looking for professional software development services in Bangalore? Look no further! Our expert team of developers in Bangalore specializes in creating high-quality, customized software solutions for businesses of all sizes.'data-rh="true" />
+
+</Helmet>
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderOne />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <BcrumbBannerOne 
                 title="Software Development Services in Bangalore"
                 paragraph ="Hirola Infotech Solutions software development services in Bangalore are known for their expertise in various technologies and programming languages, such as Java, Python, .NET, PHP, JavaScript, and more. We stay updated with the latest trends in software development, ensuring that we deliver innovative and cutting-edge solutions. "
@@ -55,6 +61,7 @@ const OurProducts = () => {
             </div>
             <FooterCta/>
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
         </main>
         </>
     )

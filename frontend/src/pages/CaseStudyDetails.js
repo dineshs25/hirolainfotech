@@ -14,6 +14,7 @@ import CounterUp from '../component/counterup/CounterUp';
 import FsLightbox from 'fslightbox-react';
 import Tilty from 'react-tilty';
 import FooterCta from '../component/cta/FooterCta';
+// import Reveal from 'react-reveal/Reveal';
 
 const allCaseData = CaseStudyData;
 
@@ -34,6 +35,7 @@ const CaseDetails = () => {
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BcrumbBannerTwo 
                     title={detailsCase.title}
                     paragraph ={detailsCase.excerpt}
@@ -72,11 +74,11 @@ const CaseDetails = () => {
                                 </div>
                                 <div className="about-expert">
                                     <div className="thumbnail">
-                                        <img src={process.env.PUBLIC_URL + "/images/about/about-1.png"} alt="Thumbnail" />
+                                        <img src={process.env.PUBLIC_URL + "/images/about/im-1.jpg"} alt="Thumbnail" />
                                         <div className="popup-video">
                                             <button className="play-btn" onClick={ () => setToggler(!toggler) }><FaPlay /></button>
                                         </div>
-                                        <FsLightbox toggler={ toggler } sources={ ['https://www.youtube.com/watch?v=1iIZeIy7TqM'] }/>
+                                        <FsLightbox toggler={ toggler } sources={ ['https://www.youtube.com/embed/C18BuBr7A6g?autoplay=1'] }/>
                                     </div>
                                 </div>
                             </div>
@@ -105,6 +107,7 @@ const CaseDetails = () => {
                 </div>
                <FooterCta/>
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
             </main>
         </>
     )

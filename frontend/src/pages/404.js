@@ -4,6 +4,7 @@ import HeaderOne from '../common/header/HeaderOne';
 import SEO from '../common/SEO';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+// import Reveal from 'react-reveal/Reveal';
 
 const ErrorPage = () => {
 
@@ -13,6 +14,7 @@ const ErrorPage = () => {
         <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <div className="error-page onepage-screen-area">
                     <div className="container">
                         <div className="row align-items-center">
@@ -46,6 +48,7 @@ const ErrorPage = () => {
                         </li>
                     </ul>
                 </div>
+               {/* </Reveal> */}
             </main>
         </>
     )

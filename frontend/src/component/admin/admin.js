@@ -37,7 +37,7 @@ export default function AdminHome() {
 
   const [client, setClient] = useState([]);
 
-  let API = `${process.env.REACT_APP_BACKEND_API}/clientsdata`;
+  let API = 'https://admin.onlinemarketingcompany.online/api/clientsdata';
 
   const fetchUser = async (url) => {
     try {

@@ -9,8 +9,9 @@ import Ourvalues from '../../component/product/school/Ourvalues';
 import StakeList from '../../component/product/school/StakeList';
 import ColorSwitcher from '../../elements/switcher/ColorSwitcher';
 // import Accordion from 'react-bootstrap/Accordion';
-import SEO from '../../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import schoolData from '../../data/products/schoolSoftware.json';
+// import Reveal from 'react-reveal/Reveal';
 const schData = schoolData
 
 const SchoolSoftware = () => {
@@ -20,10 +21,17 @@ const SchoolSoftware = () => {
 {
   schData.map((schoolInfo)=>(
 <>
-<SEO title={schoolInfo.title} />
+
+
+
+  <Helmet>
+<title>Advanced School Management System | Simplify Administration</title>
+<meta name='description' content='Simplify school administration and streamline operations with an advanced School Management System. Seamlessly manage student records, attendance, grades, timetables, and communication in one centralized platform.'data-rh="true" />
+</Helmet>
             <ColorSwitcher />
     <main className="main-wrapper">
              <HeaderOne />
+             {/* <Reveal effect="fadeInUp" duration={900}> */}
              <BcrumbBannerTwo 
              title={schoolInfo.title}
              paragraph ={schoolInfo.description + schoolInfo.descriptionTwo}
@@ -60,6 +68,7 @@ const SchoolSoftware = () => {
       </div> */}
             <FooterCta/>
          <FooterOne parentClass="" />
+        {/* </Reveal> */}
          </main>
 </>
   ))

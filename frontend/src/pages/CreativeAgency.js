@@ -12,6 +12,8 @@ import ServicePropOne from '../component/service/ServicePropOne';
 import TestimonialOne from '../component/testimonial/TestimonialOne';
 import SectionTitle from '../elements/section-title/SectionTitle';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
+// import Reveal from 'react-reveal/Reveal';
+
 
 
 const CreativeAgency = () => {
@@ -22,6 +24,7 @@ const CreativeAgency = () => {
         <ColorSwitcher />
         <main className="main-wrapper">
             <HeaderTwo />
+            {/* <Reveal effect="fadeInUp" duration={900}> */}
             <BannerTwo />
             <div className="section section-padding">
                 <div className="container">
@@ -50,6 +53,7 @@ const CreativeAgency = () => {
             <BlogOne />
             <CtaLayoutOne />
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
         </main>
         </>
     )

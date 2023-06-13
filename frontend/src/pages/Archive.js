@@ -9,6 +9,7 @@ import BlogData from "../data/blog/BlogData.json";
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import {slugify} from '../utils';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const allBlogData = BlogData;
@@ -29,6 +30,7 @@ const BlogArchive = () => {
         <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BreadCrumbOne 
                 title={getBlogData[0].author_name}
                 page="Blog"
@@ -42,6 +44,7 @@ const BlogArchive = () => {
                 </div>
                 <CtaLayoutOne />
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
             </main>
         </>
     )

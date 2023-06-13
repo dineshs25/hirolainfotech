@@ -10,6 +10,7 @@ import ProjectThree from '../component/project/ProjectThree';
 import TestimonialTwo from '../component/testimonial/TestimonialTwo';
 import FooterTwo from '../common/footer/FooterTwo';
 import FormThree from '../component/contact/FormThree';
+import Reveal from 'react-reveal/Reveal';
 
 const PersonalPortfolio = () => {
 
@@ -18,6 +19,7 @@ const PersonalPortfolio = () => {
         <SEO title="Personal Portfolio"/>
         <ColorSwitcher />
         <main className="main-wrapper">
+       
             <HeaderThree />
             <BannerThree />
             <ProjectTwo />

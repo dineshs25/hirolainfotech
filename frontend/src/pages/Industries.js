@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { slugify } from '../utils';
 import SEO from '../common/SEO';
 import FooterCta from '../component/cta/FooterCta';
+// import Reveal from 'react-reveal/Reveal';
 const allIndustriesdata = industriesData;
 console.log(allIndustriesdata)
 const IndustriesWeServe = () => {
@@ -15,6 +16,7 @@ const IndustriesWeServe = () => {
   return (
     <>
     <SEO title={allIndustriesdata.title} />
+    {/* <Reveal effect="fadeInUp" duration={900}> */}
         <HeaderOne/>
    <BannerOne/>
    <div className="section section-padding bg-color-dark pb--80 pb_lg--40 pb_md--20">
@@ -53,6 +55,7 @@ const IndustriesWeServe = () => {
 </div>
 <FooterCta/>
 <FooterOne/>
+
     </>
   )
 }

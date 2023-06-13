@@ -1,5 +1,5 @@
 import React from 'react';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import FooterOne from '../common/footer/FooterOne';
 import HeaderOne from '../common/header/HeaderOne';
@@ -7,16 +7,25 @@ import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import FormTwo from '../component/contact/FormTwo';
 import SectionTitle from '../elements/section-title/SectionTitle';
 import ContactLocation from '../component/contact/ContactLocation';
+// import Reveal from 'react-reveal/Reveal';
 
 
 
 const Contact = () => {
     return (
         <>
-            <SEO title="Blog Grid" />
+           
+
+
+<Helmet>
+<title>Contact Us | Best Digital Marketing Agency in Bangalore | Hirola</title>
+<meta name='description' content='Enquire Now ; Contact Us. +91 9916113646 ; Email Us: hello@hirolainfotech.com ; Locate In: Century Corbel , Sahakar Nagar, Bengaluru-97'data-rh="true" />
+</Helmet>
+
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BreadCrumbOne 
                 title="Contact"
                 page="Contact"
@@ -72,6 +81,7 @@ const Contact = () => {
             </div>
 
             <FooterOne parentClass="pt--150 pt_lg--100 pt_md--80 pt_sm--60" />
+           {/* </Reveal> */}
             </main>
         </>
     )

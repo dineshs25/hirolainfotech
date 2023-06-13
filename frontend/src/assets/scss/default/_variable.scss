@@ -6,7 +6,7 @@
 --color-primary: #5956E9;
 --color-white: #ffffff;
 --color-black: #000000;
---color-light: #ECF2F6;
+--color-light: #fcf3fa;
 --color-dark: #27272E;
 --color-text-dark: #292930;
 --color-accent1: #FFDC60;
@@ -83,7 +83,7 @@ $smlg-device: 'only screen and (max-width: 1199px)';
 $extra-device: 'only screen and (min-width: 1600px) and (max-width: 1999px)';
 $extra-sm-device: 'only screen and (min-width: 1160) and (max-width: 1199px)';
 $laptop-device: 'only screen and (min-width: 1199px) and (max-width: 1599px)';
-// $sm-laptop-device: 'only screen and (min-width: 1199px) and (max-width: 1400px)';
+$sm-laptop-device: 'only screen and (min-width: 1199px) and (max-width: 1400px)';
 $lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
 $md-layout:'only screen and (max-width: 991px)';
 $sm-layout:'only screen and (max-width: 767px)';

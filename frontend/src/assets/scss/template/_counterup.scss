@@ -36,13 +36,14 @@
        }
     }
     .title {
-        color: var(--color-white);
+        color: var(--color-black);
+        font-weight: 600;
         @media #{$md-layout}{
             text-align: center;
         }
     }
     &:hover, &.active {
-        background: var(--gradient-dark);
+        // background: var(--gradient-dark);
     }
     &.counterup-style-2 {
         background: var(--gradient-primary);

@@ -9,6 +9,7 @@ import CtaLayoutOne from '../component/cta/CtaLayoutOne';
 import ProjectFour from '../component/project/ProjectFour';
 import TestimonialOne from '../component/testimonial/TestimonialOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
+// import Reveal from 'react-reveal/Reveal';
 
 const HomeStartup = () => {
 
@@ -17,6 +18,7 @@ const HomeStartup = () => {
         <SEO title="Home Startup"/>
         <ColorSwitcher />
         <main className="main-wrapper">
+        {/* <Reveal effect="fadeInUp" duration={900}> */}
         <HeaderOne />
         <BannerFour />
         <ProjectFour />
@@ -25,6 +27,7 @@ const HomeStartup = () => {
         <BlogOne />
         <CtaLayoutOne />
         <FooterOne />
+       {/* </Reveal> */}
         </main>
         </>
     )

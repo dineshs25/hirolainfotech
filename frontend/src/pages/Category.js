@@ -9,6 +9,7 @@ import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
 import {slugify} from '../utils';
 import FooterCta from '../component/cta/FooterCta';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const allBlogData = BlogData;
@@ -27,6 +28,7 @@ const BlogCategory = () => {
         <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BreadCrumbOne 
                 title="Category"
                 page="Blog"
@@ -40,6 +42,7 @@ const BlogCategory = () => {
                 </div>
                 <FooterCta/>
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
             </main>
         </>
     )

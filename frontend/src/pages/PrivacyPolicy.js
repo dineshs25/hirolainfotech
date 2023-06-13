@@ -4,17 +4,25 @@ import HeaderOne from '../common/header/HeaderOne';
 import FooterCta from '../component/cta/FooterCta'
 import BreadCrumbOne from '../elements/breadcrumb/BreadCrumbOne';
 import ColorSwitcher from '../elements/switcher/ColorSwitcher';
-import SEO from '../common/SEO';
+import { Helmet } from 'react-helmet-async';
+// import Reveal from 'react-reveal/Reveal';
 
 
 const PrivacyPolicy = () => {
 
     return (
         <>
-            <SEO title="Privacy Policy" />
+            
+
+
+<Helmet>
+<title>Hirola InfoTech Solutions Privacy Policy - Protecting Your Data and Privacy</title>
+<meta name='description' content='At Hirola InfoTech Solutions, we prioritize the protection of your data and privacy. Our privacy policy outlines our commitment to safeguarding the information we collect and ensuring its secure handling. 'data-rh="true" />
+</Helmet>
             <ColorSwitcher />
             <main className="main-wrapper">
                 <HeaderOne />
+                {/* <Reveal effect="fadeInUp" duration={900}> */}
                 <BreadCrumbOne 
                 title="Privacy Policy"
                 page="Privacy Policy"
@@ -81,6 +89,7 @@ const PrivacyPolicy = () => {
                 </div>
               <FooterCta/>
             <FooterOne parentClass="" />
+           {/* </Reveal> */}
             </main>
         </>
     )
