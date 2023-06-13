@@ -13,11 +13,23 @@ app.use(
     extended: true,
   })
 );
-app.use(cors());
 
-app.get('/', cors(), (req, res) => {});
+const corsOpt = {
+  origin: '*',
+  Credential: true,
+  methods: ['GET', 'POST', 'HEAD', 'PUT', 'PATCH', 'DELETE'],
+  allowedHeaders: ['Content-Type'],
+  exposedHeaders: ['Content-Type'],
+};
+app.use(cors(corsOpt));
 
-app.get('/clientsdata', async (req, res) => {
+// app.get('/', cors(), (req, res) => {});
+
+app.get('/api', (req, res) => {
+  res.redirect('https://hirolainfotech.com/');
+});
+
+app.get('/api/clientsdata', async (req, res) => {
   collection
     .find()
     .sort({ _id: -1 })
@@ -37,11 +49,14 @@ app.get('/clientsdata', async (req, res) => {
   // })
 });
 
-app.post('/', async (req, res) => {
+app.post('/api/form', async (req, res) => {
   const { name, email, phone, company, service, msg } = req.body;
 
   let transporter = nodemailer.createTransport({
-    service: 'gmail',
+    // service: 'hostinger',
+    host: 'smtp.hostinger.com',
+    port: 587,
+    secure:false,
     auth: {
       user: process.env.EMAIL_AUTH_USER,
       pass: process.env.EMAIL_AUTH_PASSWORD,
@@ -49,10 +64,11 @@ app.post('/', async (req, res) => {
   });
 
   let mailOptions = {
-    from: 'Hirola Infotech Solutions Pvt ltd<dineshroyc25@gmail.com>', // sender address
+    from: 'Hirola Infotech Solutions Pvt ltd<hello@hirolainfotech.com>', // sender address
     to: process.env.EMAIL_AUTH_USER, // list of receivers
-    subject: 'New Hirola Infotech Form', // Subject line
-    text: 'Hello world', // plain text body
+    subject: 'New Hirola Infotech Form', // Subject liners
+
+    text: 'Hello world?', // plain text body
     html: `<table border="1px"><tr><td>Name</td><td>${name}</td>
     </tr><tr><td>Email</td><td>${email}</td></tr>
     <tr><td>Phone-Number</td><td>${phone}</td></tr>
@@ -63,10 +79,10 @@ app.post('/', async (req, res) => {
   };
 
   let mailOptionsClient = {
-    from: 'Hirola Infotech Solutions Pvt ltd<process.env.EMAIL_AUTH_USER>', // sender address
+    from: 'Hirola Infotech Solutions Pvt ltd<hello@hirolainfotech.com>', // sender address
     to: email, // list of receivers
     subject: 'Hirola Infotech Solution pvt ltd', // Subject line
-    text: 'Hello world', // plain text body
+    text: 'Hello world?', // plain text body
     html: `
     <!DOCTYPE html>
 
@@ -729,10 +745,10 @@ app.post('/', async (req, res) => {
     phone: phone,
     company: company,
     service: service,
-    msg:msg
+    msg: msg,
   };
   await collection.insertMany([data]).then(
-    transporter.sendMail( mailOptions,(err, info) => {
+    transporter.sendMail(mailOptions, (err, info) => {
       if (!err) {
       } else {
         console.log(err);
@@ -750,6 +766,10 @@ app.post('/', async (req, res) => {
     console.log('Client sent email error occured');
   }
 });
+
+// app.use(express.static(path.join(__dirname, 'frontend')))
+
+// cosole.log("path.join(\__dirname, 'frontend', 'public'")
 
 app.listen(PORT, () => {
   console.log('port Connected');
